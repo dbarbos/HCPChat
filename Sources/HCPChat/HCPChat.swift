@@ -1,6 +1,9 @@
-public struct HCPChat {
-    public private(set) var text = "Hello, World!"
+import UIKit
 
-    public init() {
-    }
+public struct HCPChat {
+
+  static public func start(flow: CoordinatorFlow = .channelDetails, from navigationController: UINavigationController) {
+    let mainCoordinator = MainCoordinator(navigationController)
+    mainCoordinator.start()
+  }
 }

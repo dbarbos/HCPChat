@@ -6,6 +6,6 @@ final class HCPChatTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(HCPChat().text, "Hello, World!")
+        // XCTAssertEqual(HCPChat().text, "Hello, World!")
     }
 }
