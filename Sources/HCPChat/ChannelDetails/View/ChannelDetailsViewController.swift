@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class ChannelDetailsViewController: UIViewController, Storyboarded {
+class ChannelDetailsViewController: UIViewController {
   
   var didCallEvent: ((ChannelDetailsViewController.Event) -> Void)?
   
