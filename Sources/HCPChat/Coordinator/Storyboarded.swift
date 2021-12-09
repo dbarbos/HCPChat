@@ -15,7 +15,7 @@ protocol Storyboarded {
 extension Storyboarded where Self: UIViewController {
   static func instantiate() -> Self {
     let id = String(describing: self)
-    let storyboard = UIStoryboard(name: id, bundle: HCPChat.bundle)
+    let storyboard = UIStoryboard(name: id, bundle: Bundle.module)
     
     return storyboard.instantiateViewController(withIdentifier: id) as! Self
   }
