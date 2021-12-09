@@ -31,10 +31,6 @@ class ChannelDetailsCoordinator: ChannelDetailsCoordinatorProtocol {
     let channelDetailsViewController = ChannelDetailsViewController()
     channelDetailsViewController.coordinator = self
     
-    channelDetailsViewController.didCallEvent = { [weak self] event in
-      self?.finish()
-    }
-    
     navigationController.pushViewController(channelDetailsViewController, animated: true)
   }
   
