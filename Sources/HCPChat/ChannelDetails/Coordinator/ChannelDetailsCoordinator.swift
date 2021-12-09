@@ -28,7 +28,7 @@ class ChannelDetailsCoordinator: ChannelDetailsCoordinatorProtocol {
   }
   
   func showChannelDetailsViewController() {
-    let channelDetailsViewController = ChannelDetailsViewController.instantiate()
+    let channelDetailsViewController = ChannelDetailsViewController()
     channelDetailsViewController.coordinator = self
     
     channelDetailsViewController.didCallEvent = { [weak self] event in
