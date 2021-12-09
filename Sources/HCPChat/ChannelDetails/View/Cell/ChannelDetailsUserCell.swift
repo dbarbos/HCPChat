@@ -33,4 +33,8 @@ class ChannelDetailsUserCell: UITableViewCell {
     return label
   }
   
+  @IBAction func didTapActionButton(_ sender: Any) {
+    print("Action!")
+  }
+  
 }
