@@ -17,6 +17,6 @@ extension Storyboarded where Self: UIViewController {
     let id = String(describing: self)
     let storyboard = UIStoryboard(name: id, bundle: Bundle.module)
     
-    return storyboard.instantiateViewController(withIdentifier: id) as! Self
+    return storyboard.instantiateInitialViewController() as! Self
   }
 }
