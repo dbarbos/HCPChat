@@ -15,7 +15,11 @@ class ChannelDetailsViewController: UIViewController {
   var coordinator: ChannelDetailsCoordinator?
   
   init() {
-    super.init(nibName: String(describing: self), bundle: Bundle.module)
+    super.init(nibName: "ChannelDetailsViewController", bundle: Bundle.module)
+  }
+  
+  required init?(coder: NSCoder) {
+      super.init(coder: coder)
   }
   
   override func viewDidLoad() {
