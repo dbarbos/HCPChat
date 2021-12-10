@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '13.2'
+
+target 'HCPChat_Example' do
+  pod 'HCPChat', :path => '../'
+
+  target 'HCPChat_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

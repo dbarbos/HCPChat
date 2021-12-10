@@ -1,0 +1,6 @@
+framework module HCPChat {
+  umbrella header "HCPChat-umbrella.h"
+
+  export *
+  module * { export * }
+}

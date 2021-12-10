@@ -1,0 +1,16 @@
+PODS:
+  - HCPChat (0.1.0)
+
+DEPENDENCIES:
+  - HCPChat (from `../`)
+
+EXTERNAL SOURCES:
+  HCPChat:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HCPChat: 0d7c2b7ad4379e99e030989ae4b149dd9bd2fd32
+
+PODFILE CHECKSUM: b37dd927afc110125af9b228d44307cc3c36024d
+
+COCOAPODS: 1.11.2

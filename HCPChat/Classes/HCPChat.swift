@@ -6,7 +6,5 @@ public struct HCPChat {
     
     let mainCoordinator = MainCoordinator(navigationController)
     mainCoordinator.start()
-    
   }
-  
 }
