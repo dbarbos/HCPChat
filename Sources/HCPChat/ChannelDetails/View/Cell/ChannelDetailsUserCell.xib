@@ -40,9 +40,6 @@
                         </constraints>
                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                         <state key="normal" title="Button" image="ellipsis" catalog="system"/>
-                        <connections>
-                            <action selector="didTapActionButton:" destination="tf1-8J-Hsq" eventType="touchUpInside" id="oDa-gh-V5I"/>
-                        </connections>
                     </button>
                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m5x-ov-0AB">
                         <rect key="frame" x="148" y="8" width="224" height="40"/>
@@ -66,7 +63,6 @@
                 </constraints>
             </tableViewCellContentView>
             <connections>
-                <outlet property="actionButton" destination="Lhs-ye-gWc" id="Afk-0L-65E"/>
                 <outlet property="avatarImageView" destination="NKE-Vd-A5T" id="Oza-Xv-0Ue"/>
                 <outlet property="nameLabel" destination="wKF-6H-J9R" id="DVU-IO-Zqw"/>
                 <outlet property="rolesStackView" destination="m5x-ov-0AB" id="srH-ew-LZi"/>
