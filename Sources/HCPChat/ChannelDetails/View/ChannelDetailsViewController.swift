@@ -32,7 +32,6 @@ class ChannelDetailsViewController: UIViewController {
     tableView.delegate = self
     tableView.dataSource = self
     
-    //tableView.register(UINib(nibName: channelDetailsUserCellIndentifier, bundle: Bundle.module), forCellReuseIdentifier: channelDetailsUserCellIndentifier)
     tableView.register(ChannelDetailsUserCell.self, forCellReuseIdentifier: channelDetailsUserCellIndentifier)
   }
   

@@ -40,6 +40,9 @@
                         </constraints>
                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                         <state key="normal" title="Button" image="ellipsis" catalog="system"/>
+                        <connections>
+                            <action selector="didTapActionButton:" destination="tf1-8J-Hsq" eventType="touchUpInside" id="emG-km-2o6"/>
+                        </connections>
                     </button>
                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m5x-ov-0AB">
                         <rect key="frame" x="148" y="8" width="224" height="40"/>
@@ -62,6 +65,11 @@
                     <constraint firstAttribute="trailing" secondItem="Lhs-ye-gWc" secondAttribute="trailing" constant="16" id="xpK-0B-I05"/>
                 </constraints>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="actionButton" destination="Lhs-ye-gWc" id="ax1-qT-yEd"/>
+                <outlet property="avatarImageView" destination="NKE-Vd-A5T" id="dzv-cL-vYG"/>
+                <outlet property="nameLabel" destination="wKF-6H-J9R" id="PXG-ZJ-9sm"/>
+            </connections>
             <point key="canvasLocation" x="-47.826086956521742" y="73.995535714285708"/>
         </tableViewCell>
     </objects>

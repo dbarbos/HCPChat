@@ -9,18 +9,18 @@ import UIKit
 
 class ChannelDetailsUserCell: UITableViewCell {
   
-  // @IBOutlet weak var avatarImageView: UIImageView!
-  // @IBOutlet weak var nameLabel: UILabel!
-  // @IBOutlet weak var rolesStackView: UIStackView!
-  // @IBOutlet weak var actionButton: UIButton!
+   @IBOutlet weak var avatarImageView: UIImageView!
+   @IBOutlet weak var nameLabel: UILabel!
+   @IBOutlet weak var rolesStackView: UIStackView!
+   @IBOutlet weak var actionButton: UIButton!
   
   func configure(user: ChannelDetailsUser) {
-//    nameLabel.text = user.name
-//    user.roles.forEach { role in
-//      if let value = role.value {
-//        rolesStackView.addArrangedSubview(roleView(value))
-//      }
-//    }
+    nameLabel.text = user.name
+    user.roles.forEach { role in
+      if let value = role.value {
+        rolesStackView.addArrangedSubview(roleView(value))
+      }
+    }
   }
   
   private func roleView(_ role: String) -> UILabel {
