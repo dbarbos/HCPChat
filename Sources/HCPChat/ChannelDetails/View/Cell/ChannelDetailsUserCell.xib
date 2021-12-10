@@ -7,7 +7,14 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ChannelDetailsUserCell" customModule="HCPChat"/>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ChannelDetailsUserCell" customModule="HCPChat">
+            <connections>
+                <outlet property="actionButton" destination="Lhs-ye-gWc" id="OB9-TV-AM8"/>
+                <outlet property="avatarImageView" destination="NKE-Vd-A5T" id="HF1-LQ-6Eh"/>
+                <outlet property="nameLabel" destination="wKF-6H-J9R" id="Wqq-cX-2dp"/>
+                <outlet property="rolesStackView" destination="m5x-ov-0AB" id="X8T-VD-s8W"/>
+            </connections>
+        </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ChannelDetailsUserCell" rowHeight="59" id="tf1-8J-Hsq" customClass="ChannelDetailsUserCell" customModule="HCPChat">
             <rect key="frame" x="0.0" y="0.0" width="414" height="59"/>
@@ -41,7 +48,7 @@
                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                         <state key="normal" title="Button" image="ellipsis" catalog="system"/>
                         <connections>
-                            <action selector="didTapActionButton:" destination="tf1-8J-Hsq" eventType="touchUpInside" id="emG-km-2o6"/>
+                            <action selector="didTapActionButton:" destination="-1" eventType="touchUpInside" id="iXL-Kb-aQD"/>
                         </connections>
                     </button>
                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m5x-ov-0AB">
@@ -65,12 +72,6 @@
                     <constraint firstAttribute="trailing" secondItem="Lhs-ye-gWc" secondAttribute="trailing" constant="16" id="xpK-0B-I05"/>
                 </constraints>
             </tableViewCellContentView>
-            <connections>
-                <outlet property="actionButton" destination="Lhs-ye-gWc" id="ax1-qT-yEd"/>
-                <outlet property="avatarImageView" destination="NKE-Vd-A5T" id="dzv-cL-vYG"/>
-                <outlet property="nameLabel" destination="wKF-6H-J9R" id="PXG-ZJ-9sm"/>
-                <outlet property="rolesStackView" destination="m5x-ov-0AB" id="ozX-Aw-EIH"/>
-            </connections>
             <point key="canvasLocation" x="-47.826086956521742" y="73.995535714285708"/>
         </tableViewCell>
     </objects>
