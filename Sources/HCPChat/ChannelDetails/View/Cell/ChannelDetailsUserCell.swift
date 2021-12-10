@@ -9,7 +9,6 @@ import UIKit
 
 class ChannelDetailsUserCell: UITableViewCell {
   
-  
   @IBOutlet weak var avatarImageView: UIImageView!
   @IBOutlet weak var nameLabel: UILabel!
   @IBOutlet weak var rolesStackView: UIStackView!
