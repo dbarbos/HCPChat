@@ -19,6 +19,11 @@ class ChannelDetailsUserCell: UITableViewCell {
   }
   
   func configure(user: ChannelDetailsUser) {
+    
+    self.reloadInputViews()
+    self.layoutSubviews()
+    self.awakeFromNib()
+    
     nameLabel.text = user.name
     user.roles.forEach { role in
       if let value = role.value {
