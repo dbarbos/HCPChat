@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import HCPChat
 
 class ViewController: UIViewController {
 
@@ -19,6 +20,11 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+  
+  @IBAction func buttonTapped(_ sender: Any) {
+    guard let navigationController = self.navigationController else { return }
+    HCPChat.start(flow: .channelDetails, from: navigationController)
+  }
 
 }
 

@@ -20,11 +20,12 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/dbarbos/HCPChat'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'dbarbos' => 'dilermando.barbosa@housecallpro.com' }
+  s.author           = { 'Diler Barbosa' => 'dilermando.barbosa@housecallpro.com' }
   s.source           = { :git => 'https://github.com/dbarbos/HCPChat.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '13.0'
+  s.static_framework = true
 
   s.source_files = 'HCPChat/Classes/**/*'
 

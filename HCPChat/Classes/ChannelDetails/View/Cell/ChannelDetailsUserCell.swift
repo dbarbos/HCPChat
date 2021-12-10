@@ -7,7 +7,6 @@
 
 import UIKit
 
-@objc(SPMChannelDetailsUserCell)
 class ChannelDetailsUserCell: UITableViewCell {
   
    @IBOutlet weak var avatarImageView: UIImageView!
@@ -15,15 +14,7 @@ class ChannelDetailsUserCell: UITableViewCell {
    @IBOutlet weak var rolesStackView: UIStackView!
    @IBOutlet weak var actionButton: UIButton!
   
-  override func awakeFromNib() {
-    super.awakeFromNib()
-  }
-  
   func configure(user: ChannelDetailsUser) {
-    
-    self.reloadInputViews()
-    self.layoutSubviews()
-    self.awakeFromNib()
     
     nameLabel.text = user.name
     user.roles.forEach { role in

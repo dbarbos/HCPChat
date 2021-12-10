@@ -8,7 +8,7 @@
     "file": "LICENSE"
   },
   "authors": {
-    "dbarbos": "dilermando.barbosa@housecallpro.com"
+    "Diler Barbosa": "dilermando.barbosa@housecallpro.com"
   },
   "source": {
     "git": "https://github.com/dbarbos/HCPChat.git",
@@ -17,6 +17,7 @@
   "platforms": {
     "ios": "13.0"
   },
+  "static_framework": true,
   "source_files": "HCPChat/Classes/**/*",
   "resource_bundles": {
     "HCPChat": [
