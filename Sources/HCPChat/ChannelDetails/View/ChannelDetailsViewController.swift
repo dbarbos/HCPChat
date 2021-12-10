@@ -58,6 +58,9 @@ extension ChannelDetailsViewController: UITableViewDataSource, UITableViewDelega
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     let cell = tableView.dequeueReusableCell(withIdentifier: channelDetailsUserCellIndentifier) as! ChannelDetailsUserCell
     
+    cell.reloadInputViews()
+    cell.awakeFromNib()
+    
     cell.configure(user: viewModel.users[indexPath.row])
     
     return cell
