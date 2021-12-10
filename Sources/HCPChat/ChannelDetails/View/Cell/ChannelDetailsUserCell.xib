@@ -62,11 +62,6 @@
                     <constraint firstAttribute="trailing" secondItem="Lhs-ye-gWc" secondAttribute="trailing" constant="16" id="xpK-0B-I05"/>
                 </constraints>
             </tableViewCellContentView>
-            <connections>
-                <outlet property="avatarImageView" destination="NKE-Vd-A5T" id="Oza-Xv-0Ue"/>
-                <outlet property="nameLabel" destination="wKF-6H-J9R" id="DVU-IO-Zqw"/>
-                <outlet property="rolesStackView" destination="m5x-ov-0AB" id="srH-ew-LZi"/>
-            </connections>
             <point key="canvasLocation" x="-47.826086956521742" y="73.995535714285708"/>
         </tableViewCell>
     </objects>

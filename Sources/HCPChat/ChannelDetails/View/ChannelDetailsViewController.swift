@@ -32,7 +32,7 @@ class ChannelDetailsViewController: UIViewController {
     tableView.delegate = self
     tableView.dataSource = self
     
-    tableView.register(UINib(nibName: channelDetailsUserCellIndentifier, bundle: nil), forCellReuseIdentifier: channelDetailsUserCellIndentifier)
+    tableView.register(UINib(nibName: channelDetailsUserCellIndentifier, bundle: Bundle.module), forCellReuseIdentifier: channelDetailsUserCellIndentifier)
   }
   
   private func setLeftBarButtonItem() {

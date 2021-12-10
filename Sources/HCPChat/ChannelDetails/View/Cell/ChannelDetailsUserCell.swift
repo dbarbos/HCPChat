@@ -9,9 +9,9 @@ import UIKit
 
 class ChannelDetailsUserCell: UITableViewCell {
   
-  @IBOutlet weak var avatarImageView: UIImageView!
-  @IBOutlet weak var nameLabel: UILabel!
-  @IBOutlet weak var rolesStackView: UIStackView!
+  // @IBOutlet weak var avatarImageView: UIImageView!
+  // @IBOutlet weak var nameLabel: UILabel!
+  // @IBOutlet weak var rolesStackView: UIStackView!
   // @IBOutlet weak var actionButton: UIButton!
   
   func configure(user: ChannelDetailsUser) {
