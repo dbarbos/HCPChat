@@ -14,6 +14,10 @@ class ChannelDetailsUserCell: UITableViewCell {
    @IBOutlet weak var rolesStackView: UIStackView!
    @IBOutlet weak var actionButton: UIButton!
   
+  override func awakeFromNib() {
+    super.awakeFromNib()
+  }
+  
   func configure(user: ChannelDetailsUser) {
     nameLabel.text = user.name
     user.roles.forEach { role in
