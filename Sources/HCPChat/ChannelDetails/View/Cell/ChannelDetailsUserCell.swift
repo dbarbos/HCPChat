@@ -7,6 +7,7 @@
 
 import UIKit
 
+@objc(SPMChannelDetailsUserCell)
 class ChannelDetailsUserCell: UITableViewCell {
   
    @IBOutlet weak var avatarImageView: UIImageView!
