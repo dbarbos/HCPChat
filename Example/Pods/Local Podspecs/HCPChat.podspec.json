@@ -15,7 +15,7 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "13.2"
+    "ios": "13.0"
   },
   "source_files": "HCPChat/Classes/**/*",
   "resource_bundles": {

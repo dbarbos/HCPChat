@@ -60,9 +60,9 @@
 /* Begin PBXFileReference section */
 		0030FA5B7FADDE210F6352B7E65873EC /* Pods-HCPChat_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HCPChat_Example-umbrella.h"; sourceTree = "<group>"; };
 		0EDC86F8F3601AB8E87495FC4479EE25 /* Pods-HCPChat_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HCPChat_Tests-umbrella.h"; sourceTree = "<group>"; };
-		1849C4929295833BD2BBB1DAF1FAD399 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1849C4929295833BD2BBB1DAF1FAD399 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		1C95FB04DF290C05C77B740BED1F5BE8 /* Pods-HCPChat_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HCPChat_Example-dummy.m"; sourceTree = "<group>"; };
-		26D87B2B91B57B2CCDD124FC3DEF163D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		26D87B2B91B57B2CCDD124FC3DEF163D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		2BC94B313174D3C8673B121DA6D564A8 /* HCPChat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HCPChat-dummy.m"; sourceTree = "<group>"; };
 		2E401FE8029AB3EC01D28743E62CFD0D /* Pods-HCPChat_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HCPChat_Example-Info.plist"; sourceTree = "<group>"; };
 		302B37BE8CEBAE88888E313EF5385260 /* Pods-HCPChat_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HCPChat_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -86,17 +86,17 @@
 		926B9A5B3D6A181961E008F5C810E481 /* Pods-HCPChat_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HCPChat_Tests-Info.plist"; sourceTree = "<group>"; };
 		9A8C27659AB6953CB439AAB3F882A3CC /* HCPChat-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HCPChat-umbrella.h"; sourceTree = "<group>"; };
 		9BC37DFB6A8C9693151346008B2469FC /* ChannelDetailsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ChannelDetailsViewController.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A3BFF46150174715D1DC077BE868CA54 /* Pods-HCPChat_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HCPChat_Tests-dummy.m"; sourceTree = "<group>"; };
 		A521368BA06C9F03D4D3430401247438 /* Pods-HCPChat_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HCPChat_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AB932A48BDB40AF854B8DC42108E3B1A /* Pods_HCPChat_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HCPChat_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB932A48BDB40AF854B8DC42108E3B1A /* Pods-HCPChat_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HCPChat_Tests"; path = Pods_HCPChat_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADC8307B4324FAC47D548D681E03633A /* Pods-HCPChat_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HCPChat_Example.release.xcconfig"; sourceTree = "<group>"; };
-		AE4C84973D55625AB3AEED7D97CA8912 /* HCPChat.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HCPChat.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AE4C84973D55625AB3AEED7D97CA8912 /* HCPChat.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HCPChat.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BB8380408B738B0306B9897E165264F0 /* ChannelDetailsCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ChannelDetailsCoordinator.swift; sourceTree = "<group>"; };
 		CAC8717F1F2699916FE8CC6C87A3E1A5 /* Pods-HCPChat_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HCPChat_Tests.modulemap"; sourceTree = "<group>"; };
 		CCCBEF2A0201847EDFEE0200B86985AD /* Pods-HCPChat_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HCPChat_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		CD1B3BB25641B1C85697C9F4E2C2272E /* Pods_HCPChat_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HCPChat_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFA883B6F8481D79A1131A123C452349 /* HCPChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HCPChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1B3BB25641B1C85697C9F4E2C2272E /* Pods-HCPChat_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HCPChat_Example"; path = Pods_HCPChat_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA883B6F8481D79A1131A123C452349 /* HCPChat */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HCPChat; path = HCPChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBEF197C0C866829C91ED8A95A17C090 /* ChannelDetailsViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ChannelDetailsViewModel.swift; sourceTree = "<group>"; };
 		E03B825E8AF73501920E4FCE2CD09433 /* HCPChat-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HCPChat-prefix.pch"; sourceTree = "<group>"; };
 		F0760063E1882B232DFC013F39CA13F9 /* HCPChat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HCPChat.swift; path = HCPChat/Classes/HCPChat.swift; sourceTree = "<group>"; };
@@ -147,6 +147,7 @@
 				8D4DB9845739AC225A416B481CF44782 /* ChannelDetailsUser.swift */,
 				FCBA6656E9DAB87E9416C57FBA1F1A05 /* ChannelDetailsUserRole.swift */,
 			);
+			name = Model;
 			path = Model;
 			sourceTree = "<group>";
 		};
@@ -185,6 +186,7 @@
 				FEBB7FA92BDFDE30DE06A39F700716CC /* ChannelDetailsViewController.xib */,
 				55151D2778B75A416C847B9A8AB076F3 /* Cell */,
 			);
+			name = View;
 			path = View;
 			sourceTree = "<group>";
 		};
@@ -210,6 +212,7 @@
 				712A7973FBA6B42DACE949704E665233 /* ChannelDetailsUserCell.swift */,
 				4DD05186EAA3D3EB2E41AFE87587470D /* ChannelDetailsUserCell.xib */,
 			);
+			name = Cell;
 			path = Cell;
 			sourceTree = "<group>";
 		};
@@ -262,6 +265,7 @@
 			children = (
 				DBEF197C0C866829C91ED8A95A17C090 /* ChannelDetailsViewModel.swift */,
 			);
+			name = ViewModel;
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
@@ -270,6 +274,7 @@
 			children = (
 				BB8380408B738B0306B9897E165264F0 /* ChannelDetailsCoordinator.swift */,
 			);
+			name = Coordinator;
 			path = Coordinator;
 			sourceTree = "<group>";
 		};
@@ -336,10 +341,10 @@
 		FAF36EC838BBF4552AACA92DD2192C71 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CFA883B6F8481D79A1131A123C452349 /* HCPChat.framework */,
+				CFA883B6F8481D79A1131A123C452349 /* HCPChat */,
 				71E46CC3173FA92E2AAE609965201A40 /* HCPChat-HCPChat */,
-				CD1B3BB25641B1C85697C9F4E2C2272E /* Pods_HCPChat_Example.framework */,
-				AB932A48BDB40AF854B8DC42108E3B1A /* Pods_HCPChat_Tests.framework */,
+				CD1B3BB25641B1C85697C9F4E2C2272E /* Pods-HCPChat_Example */,
+				AB932A48BDB40AF854B8DC42108E3B1A /* Pods-HCPChat_Tests */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -390,7 +395,7 @@
 			);
 			name = "Pods-HCPChat_Example";
 			productName = Pods_HCPChat_Example;
-			productReference = CD1B3BB25641B1C85697C9F4E2C2272E /* Pods_HCPChat_Example.framework */;
+			productReference = CD1B3BB25641B1C85697C9F4E2C2272E /* Pods-HCPChat_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 		5D95C9A1D3C365EBFDBBAC53A4668B6C /* Pods-HCPChat_Tests */ = {
@@ -409,7 +414,7 @@
 			);
 			name = "Pods-HCPChat_Tests";
 			productName = Pods_HCPChat_Tests;
-			productReference = AB932A48BDB40AF854B8DC42108E3B1A /* Pods_HCPChat_Tests.framework */;
+			productReference = AB932A48BDB40AF854B8DC42108E3B1A /* Pods-HCPChat_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 		9A3A2CD3ACFE91AD469139EE0B7DC50D /* HCPChat */ = {
@@ -428,7 +433,7 @@
 			);
 			name = HCPChat;
 			productName = HCPChat;
-			productReference = CFA883B6F8481D79A1131A123C452349 /* HCPChat.framework */;
+			productReference = CFA883B6F8481D79A1131A123C452349 /* HCPChat */;
 			productType = "com.apple.product-type.framework";
 		};
 		CCFF32134693CDDEEFB321014911CF57 /* HCPChat-HCPChat */ = {
@@ -455,7 +460,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1310;
+				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -580,11 +585,28 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0E13EA3BF155CB3856BF06FF93995C30 /* Release */ = {
+		1570D70A7F828BF02E47793D3C62BA5D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 302B37BE8CEBAE88888E313EF5385260 /* Pods-HCPChat_Tests.release.xcconfig */;
+			baseConfigurationReference = 44B1AE5C360EE0B756738BD088D09735 /* HCPChat.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HCPChat";
+				IBSC_MODULE = HCPChat;
+				INFOPLIST_FILE = "Target Support Files/HCPChat/ResourceBundle-HCPChat-HCPChat-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = HCPChat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		1C395D38B1CBE09456509F5A013E83AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCCBEF2A0201847EDFEE0200B86985AD /* Pods-HCPChat_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -596,7 +618,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-HCPChat_Tests/Pods-HCPChat_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-HCPChat_Tests/Pods-HCPChat_Tests.modulemap";
@@ -608,16 +630,16 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		0FB99BCA201D8B85A26527BE2861B67F /* Release */ = {
+		2038090A550F58EF09A8BB70F77C017C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 44B1AE5C360EE0B756738BD088D09735 /* HCPChat.release.xcconfig */;
+			baseConfigurationReference = 7B5E26EE7575C052649C01F676F392E5 /* HCPChat.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -630,7 +652,39 @@
 				GCC_PREFIX_HEADER = "Target Support Files/HCPChat/HCPChat-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/HCPChat/HCPChat-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HCPChat/HCPChat.modulemap";
+				PRODUCT_MODULE_NAME = HCPChat;
+				PRODUCT_NAME = HCPChat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		27CEF3BE9556735B984DA4AC885894D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44B1AE5C360EE0B756738BD088D09735 /* HCPChat.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HCPChat/HCPChat-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HCPChat/HCPChat-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/HCPChat/HCPChat.modulemap";
 				PRODUCT_MODULE_NAME = HCPChat;
@@ -646,7 +700,41 @@
 			};
 			name = Release;
 		};
-		231528393B7084E13F97FF9EF804A1C0 /* Debug */ = {
+		77D0750F7EED4BAA273A733D772B14C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C623750B23ECEFB741DC53E1D2C21A9 /* Pods-HCPChat_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HCPChat_Example/Pods-HCPChat_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HCPChat_Example/Pods-HCPChat_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -699,7 +787,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -712,7 +800,7 @@
 			};
 			name = Debug;
 		};
-		353D2EB3545D27343B51B709D9C0420B /* Release */ = {
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -762,25 +850,26 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		4535F12FC3B51647C6A3C9B10CB55843 /* Debug */ = {
+		B31FE1E6F9281FD84DC278EE6D1EA0A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7B5E26EE7575C052649C01F676F392E5 /* HCPChat.debug.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HCPChat";
 				IBSC_MODULE = HCPChat;
 				INFOPLIST_FILE = "Target Support Files/HCPChat/ResourceBundle-HCPChat-HCPChat-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_NAME = HCPChat;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -789,77 +878,12 @@
 			};
 			name = Debug;
 		};
-		76901DA446D96955BF13FCC06862F4ED /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CCCBEF2A0201847EDFEE0200B86985AD /* Pods-HCPChat_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HCPChat_Tests/Pods-HCPChat_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HCPChat_Tests/Pods-HCPChat_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C1E544FD3E34112F81A705FA047E3853 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C623750B23ECEFB741DC53E1D2C21A9 /* Pods-HCPChat_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HCPChat_Example/Pods-HCPChat_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HCPChat_Example/Pods-HCPChat_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D3C22D437A799F73EB30D680F3CFFFC7 /* Release */ = {
+		B66D73207EB4E57CAF8B897BC2AB2787 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ADC8307B4324FAC47D548D681E03633A /* Pods-HCPChat_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -871,7 +895,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-HCPChat_Example/Pods-HCPChat_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-HCPChat_Example/Pods-HCPChat_Example.modulemap";
@@ -889,10 +913,12 @@
 			};
 			name = Release;
 		};
-		E0C68A7B9505AC603E4D6A351CF834CB /* Debug */ = {
+		C46D6DC5FDB6D283F6ED354887D4C8C9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B5E26EE7575C052649C01F676F392E5 /* HCPChat.debug.xcconfig */;
+			baseConfigurationReference = 302B37BE8CEBAE88888E313EF5385260 /* Pods-HCPChat_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -902,37 +928,23 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HCPChat/HCPChat-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HCPChat/HCPChat-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-HCPChat_Tests/Pods-HCPChat_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HCPChat/HCPChat.modulemap";
-				PRODUCT_MODULE_NAME = HCPChat;
-				PRODUCT_NAME = HCPChat;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HCPChat_Tests/Pods-HCPChat_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E2911FC61A9E3DE293D0B5020F8F0AC2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 44B1AE5C360EE0B756738BD088D09735 /* HCPChat.release.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HCPChat";
-				IBSC_MODULE = HCPChat;
-				INFOPLIST_FILE = "Target Support Files/HCPChat/ResourceBundle-HCPChat-HCPChat-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				PRODUCT_NAME = HCPChat;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -942,8 +954,8 @@
 		1220CD4FCF493A5FF289508F0F435221 /* Build configuration list for PBXNativeTarget "HCPChat-HCPChat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4535F12FC3B51647C6A3C9B10CB55843 /* Debug */,
-				E2911FC61A9E3DE293D0B5020F8F0AC2 /* Release */,
+				B31FE1E6F9281FD84DC278EE6D1EA0A2 /* Debug */,
+				1570D70A7F828BF02E47793D3C62BA5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -951,8 +963,8 @@
 		2E5863CA7F74B36DABF5AA1C19BDA2A0 /* Build configuration list for PBXNativeTarget "Pods-HCPChat_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				76901DA446D96955BF13FCC06862F4ED /* Debug */,
-				0E13EA3BF155CB3856BF06FF93995C30 /* Release */,
+				1C395D38B1CBE09456509F5A013E83AC /* Debug */,
+				C46D6DC5FDB6D283F6ED354887D4C8C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -960,8 +972,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				231528393B7084E13F97FF9EF804A1C0 /* Debug */,
-				353D2EB3545D27343B51B709D9C0420B /* Release */,
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -969,8 +981,8 @@
 		9859E0BD481986F54D5235CA8A7BB9B4 /* Build configuration list for PBXNativeTarget "Pods-HCPChat_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C1E544FD3E34112F81A705FA047E3853 /* Debug */,
-				D3C22D437A799F73EB30D680F3CFFFC7 /* Release */,
+				77D0750F7EED4BAA273A733D772B14C5 /* Debug */,
+				B66D73207EB4E57CAF8B897BC2AB2787 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -978,8 +990,8 @@
 		B004A8BA2B36195E9C96EDEFA446B30F /* Build configuration list for PBXNativeTarget "HCPChat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E0C68A7B9505AC603E4D6A351CF834CB /* Debug */,
-				0FB99BCA201D8B85A26527BE2861B67F /* Release */,
+				2038090A550F58EF09A8BB70F77C017C /* Debug */,
+				27CEF3BE9556735B984DA4AC885894D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
