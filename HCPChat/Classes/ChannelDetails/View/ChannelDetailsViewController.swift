@@ -12,14 +12,20 @@ class ChannelDetailsViewController: UIViewController {
   
   var coordinator: ChannelDetailsCoordinator?
   
-  var viewModel = ChannelDetailsViewModel()
+  var viewModel: ChannelDetailsViewModel!
   
   let channelDetailsUserCellIndentifier: String = "ChannelDetailsUserCell"
   
   @IBOutlet weak var tableView: UITableView!
   
-  init() {
-    super.init(nibName: "ChannelDetailsViewController", bundle: Bundle.module)
+  init(with viewModel: ChannelDetailsViewModel = ChannelDetailsViewModel()) {
+      
+      super.init(nibName: "ChannelDetailsViewController", bundle: HCPChat.bundle)
+      
+      self.viewModel = viewModel
+      
+      // title = "Confirmação"
+      
   }
   
   required init?(coder: NSCoder) {

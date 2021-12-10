@@ -2,21 +2,28 @@
   "name": "HCPChat",
   "version": "0.1.0",
   "summary": "A short description of HCPChat.",
-  "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/dbarbos/HCPChat",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "dbarbos": "tqi_dbarbosa@uolinc.com"
+    "dbarbos": "dilermando.barbosa@housecallpro.com"
   },
   "source": {
     "git": "https://github.com/dbarbos/HCPChat.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "13.2"
   },
-  "source_files": "HCPChat/Classes/**/*"
+  "source_files": "HCPChat/Classes/**/*",
+  "resource_bundles": {
+    "HCPChat": [
+      "HCPChat/Assets/*.xcassets",
+      "HCPChat/Assets/**/*.json",
+      "HCPChat/Classes/**/*.xib",
+      "HCPChat/Classes/**/*.json"
+    ]
+  }
 }
