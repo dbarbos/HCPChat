@@ -1,6 +1,6 @@
 {
   "name": "HCPChat",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A short description of HCPChat.",
   "homepage": "https://github.com/dbarbos/HCPChat",
   "license": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/dbarbos/HCPChat.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "13.0"

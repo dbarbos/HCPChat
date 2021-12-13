@@ -1,5 +1,5 @@
 PODS:
-  - HCPChat (0.1.0):
+  - HCPChat (0.1.1):
     - SendBirdUIKit
   - SendBirdSDK (3.1.1)
   - SendBirdUIKit (2.2.1):
@@ -19,7 +19,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HCPChat: ea84f15a525b204d361ebc63967569b6f6896d7c
+  HCPChat: 3725c5f84c8f6322a3eec39f1999795ed3fa1e6f
   SendBirdSDK: f698cf686d732889d79854756aba6bbc20062a00
   SendBirdUIKit: 19f911839f10908e58db91900d33b6758ad47744
 
