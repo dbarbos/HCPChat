@@ -10,7 +10,7 @@ import UIKit
 
 class ChannelDetailsViewController: UIViewController {
   
-  var coordinator: ChannelDetailsCoordinator?
+  var coordinator: MainCoordinator?
   
   var viewModel: ChannelDetailsViewModel!
   
@@ -18,7 +18,7 @@ class ChannelDetailsViewController: UIViewController {
   
   @IBOutlet weak var tableView: UITableView!
   
-  init(with viewModel: ChannelDetailsViewModel = ChannelDetailsViewModel()) {
+  init(with viewModel: ChannelDetailsViewModel = ChannelDetailsViewModel(members: [])) {
       
       super.init(nibName: "ChannelDetailsViewController", bundle: HCPChat.bundle)
       
@@ -61,13 +61,13 @@ extension ChannelDetailsViewController: UITableViewDataSource, UITableViewDelega
   }
   
   func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-    return viewModel.users.count
+    return viewModel.members.count
   }
   
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     let cell = tableView.dequeueReusableCell(withIdentifier: channelDetailsUserCellIndentifier) as! ChannelDetailsUserCell
     
-    cell.configure(user: viewModel.users[indexPath.row])
+    cell.configure(user: viewModel.members[indexPath.row])
     
     return cell
   }

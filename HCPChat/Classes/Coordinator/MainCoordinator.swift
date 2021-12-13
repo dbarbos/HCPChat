@@ -7,9 +7,10 @@
 
 import Foundation
 import UIKit
+import SendBirdSDK
 
 protocol MainCoordinatorProtocol: Coordinator {
-  func showChannelDetails()
+  func showChannelDetails(members: [SBDUser])
 }
 
 class MainCoordinator: MainCoordinatorProtocol {
@@ -17,22 +18,26 @@ class MainCoordinator: MainCoordinatorProtocol {
   weak var delegate: CoordinatorDelegate?
   var navigationController: UINavigationController
   var childCoordinators: [Coordinator] = []
-  var flow: CoordinatorFlow { .main }
   
   required init(_ navigationController: UINavigationController) {
     self.navigationController = navigationController
   }
   
-  func start() {
-    showChannelDetails()
+  func start(flow: CoordinatorFlow) {
+    switch flow {
+    case .main:
+      print("Go to main flow")
+    case .channelDetails(let members):
+      showChannelDetails(members: members)
+    }
   }
   
-  func showChannelDetails() {
+  func showChannelDetails(members: [SBDUser]) {
     
-    let channelDetailsCoordinator = ChannelDetailsCoordinator(navigationController)
-    channelDetailsCoordinator.delegate = self
-    channelDetailsCoordinator.start()
-    childCoordinators.append(channelDetailsCoordinator)
+    let channelDetailsViewController = ChannelDetailsViewController(with: ChannelDetailsViewModel(members: members))
+    channelDetailsViewController.coordinator = self
+    
+    navigationController.pushViewController(channelDetailsViewController, animated: true)
     
   }
   

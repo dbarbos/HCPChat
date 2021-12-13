@@ -6,13 +6,14 @@
 //
 
 import Foundation
-
+import SendBirdSDK
 
 class ChannelDetailsViewModel {
   
-  var users: [ChannelDetailsUser] = [
-    ChannelDetailsUser(avatarUrl: "", name: "Dilermando Barbosa", roles: [ChannelDetailsUserRole(value: "Admin"), ChannelDetailsUserRole(value: "Field Tech")]),
-    ChannelDetailsUser(avatarUrl: "", name: "Uke Jain", roles: [ChannelDetailsUserRole(value: "Field Tech")])
-  ]
+  var members: [ChannelDetailsUser]
+  
+  init(members: [SBDUser]) {
+    self.members = members.map { ChannelDetailsUser(avatarUrl: $0.profileUrl, name: $0.nickname, roles: [ChannelDetailsUserRole(value: "Admin")]) }
+  }
   
 }

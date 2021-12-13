@@ -19,13 +19,8 @@ public struct HCPChat {
   
   static public func start(flow: CoordinatorFlow, from navigationController: UINavigationController) {
     
-    switch flow {
-    case .main:
-      let mainCoordinator = MainCoordinator(navigationController)
-      mainCoordinator.start()
-    case .channelDetails(let members):
-      let channelCoordinator = ChannelDetailsCoordinator(navigationController)
-      channelCoordinator.start()
-    }
+    let mainCoordinator = MainCoordinator(navigationController)
+    mainCoordinator.start(flow: flow)
+    
   }
 }
