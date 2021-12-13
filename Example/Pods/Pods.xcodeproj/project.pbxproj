@@ -9,185 +9,175 @@
 /* Begin PBXAggregateTarget section */
 		3A49971F16C114258A534BEEE094303E /* SendBirdSDK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 0BA552128167900DC8AED4614222215C /* Build configuration list for PBXAggregateTarget "SendBirdSDK" */;
+			buildConfigurationList = B8C2601AB69F92E56F8B5A5249985E74 /* Build configuration list for PBXAggregateTarget "SendBirdSDK" */;
 			buildPhases = (
-				29914AEB57F0E36653F9F43C6F342799 /* [CP] Copy XCFrameworks */,
+				AA48E3E220E79C945079014A0620C8AA /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
 			);
 			name = SendBirdSDK;
-			productName = SendBirdSDK;
 		};
 		89D97488C4F8726AB4F3C61EDD95CC56 /* SendBirdUIKit */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 7C2DD2302C7792C34D913BDBB8DCC449 /* Build configuration list for PBXAggregateTarget "SendBirdUIKit" */;
+			buildConfigurationList = E46737AF656A6D932ACAF3F322269D19 /* Build configuration list for PBXAggregateTarget "SendBirdUIKit" */;
 			buildPhases = (
-				D90F2DB92527C17B48B439336F1D6542 /* [CP] Copy XCFrameworks */,
+				4775B2960C39252F1FE98335A41C37F0 /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
-				F7234D907AEB02E20E67EE64957BD708 /* PBXTargetDependency */,
+				1E974FAB8C3A56D2AAA9452B3264FDCF /* PBXTargetDependency */,
 			);
 			name = SendBirdUIKit;
-			productName = SendBirdUIKit;
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		073AB492BE6603C2342C2FCA7A2A558E /* CircularAvatarView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 65A39592FBEF05F6551695C52CF9935B /* CircularAvatarView.xib */; };
-		0D6DE0EDE9E7C32C43F4A1577E02C1FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		0DABB667AF35DD9C182C650A85FA6456 /* ChannelDetailsUserCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 5C847C98601CAACA3B0290231BDF72A1 /* ChannelDetailsUserCell.xib */; };
 		0F4943498B7E21C4D9FBC2197771293B /* Pods-HCPChat_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F907288FC2FA50AF14A5F31BB8FF8048 /* Pods-HCPChat_Tests-dummy.m */; };
-		130A4150C402923EEE0EB27CA9269A22 /* ChannelDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF602C58E03FB670C55D7F7A0E5169E2 /* ChannelDetailsViewController.xib */; };
-		1664779D26261D8217FC9835F2181B74 /* ChannelDetailsUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C847C98601CAACA3B0290231BDF72A1 /* ChannelDetailsUserCell.xib */; };
-		174F5BB327970BF6D620E4D0A895ED73 /* ChannelDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22FB2769DF2C65906EA6AAB2352BDD8 /* ChannelDetailsViewController.swift */; };
-		2D91915CB7861A8287FEB22ACF939674 /* ChannelDetailsViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = EF602C58E03FB670C55D7F7A0E5169E2 /* ChannelDetailsViewController.xib */; };
-		30E4AB508C31D6643256C28B90A45F25 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A865CD8AC22DEC5E3366949C4A6AC8C6 /* MainCoordinator.swift */; };
-		49DE17A45318ECE82DBBAE897CD7EF3D /* ChannelDetailsUserRole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAB3B850B8F10ACA2FB4175616578EE /* ChannelDetailsUserRole.swift */; };
-		56DD5896C396202BAE1F459A26AFC5F0 /* HCPChat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA187CB992433D9DC1E9F193A8E0AA4 /* HCPChat-dummy.m */; };
-		5E70FC1F6BE74AF9BA39D6BBB7BFF61D /* CircularAvatarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65A39592FBEF05F6551695C52CF9935B /* CircularAvatarView.xib */; };
-		6290540058EFCC336BAB762E58594028 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6897C9004F4D1CF81A49CC0DEEAAD5 /* String+Extensions.swift */; };
-		706F3424DB2BC386FE63463B910EC8A8 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798D87B7C5DD06A05BD817810F5A758E /* Coordinator.swift */; };
-		76CC82A2D8E82192A050758F5492B13B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68B6FC81096123270FFE7FC0BF7E4495 /* Assets.xcassets */; };
-		7F40C8BB7083BC884CF1CE35C713034C /* ChannelDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08F3CA357FEB3C461FA272EC5891958 /* ChannelDetailsViewModel.swift */; };
+		3203A85217C64175E3791E240008EC4A /* HCPChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA4FB813FCE714C17B77AC3BE71DDB5 /* HCPChat.swift */; };
+		392FC694BD4D45CC3895383E10807987 /* ChannelDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD116678E8210884CF866D1E828FC301 /* ChannelDetailsViewModel.swift */; };
+		402205462002D2F0BF32499DE1B44D82 /* ChannelDetailsUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D1CD3C6983E455563645D5763F167AE /* ChannelDetailsUserCell.xib */; };
+		4833A05DA3A6D51F370B82811CACB05F /* HCPChat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45177E23FBD1F67C6399CEA64C982799 /* HCPChat-dummy.m */; };
+		48C826C6EEAC70A9EC2804D5B3F4F4CC /* ChannelDetailsUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23EB55E71E501213642D7596590478D /* ChannelDetailsUserCell.swift */; };
+		4DAF1EBE7BF3DC6C5168BAE048DC7BEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5CFDA334E5BD26B3E64A0054117F8C31 /* ChannelDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F592428E3A06E08546322A46DE35F3F /* ChannelDetailsViewController.xib */; };
+		61252709B7F1FC3A5BF3336885B400EA /* ChannelDetailsUserCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 3D1CD3C6983E455563645D5763F167AE /* ChannelDetailsUserCell.xib */; };
+		6B2ABBCFF0A031502F72786FB88F9A0D /* ChatCustomTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5EDD42B12754BAD2CBC95B0B83FE44 /* ChatCustomTagView.swift */; };
+		6FFA414791067A6FB7172318BBA30011 /* HCPChat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C50BBDC3B569F9E44BEE997C7BE072CB /* HCPChat-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DD300E2204769BF8CB2088336558EBE /* CircularAvatarView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 1D824368CC9E2E48A84164E898CE2738 /* CircularAvatarView.xib */; };
+		88C143D05A3F075E28F9CF1343863366 /* ChatCustomTagView.xib in Sources */ = {isa = PBXBuildFile; fileRef = CD69FC01C9703F311D8F6921CC66531E /* ChatCustomTagView.xib */; };
+		8B9CA5A843BC64797BEEC6BB37047ED0 /* CircularAvatarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D824368CC9E2E48A84164E898CE2738 /* CircularAvatarView.xib */; };
 		8C50201068F374A4A0F8423AC909A8DE /* Pods-HCPChat_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C74534915C5805094F0B2ED4A74EDCC /* Pods-HCPChat_Example-dummy.m */; };
-		9ACF43FF736CC9E0167EEA7A0465C3D3 /* HCPChat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D0D3D9AC0B137FB62D5593CD66BB85F /* HCPChat-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		915EED2BEFE7F174362DFC56117FA080 /* ChannelDetailsUserRole.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB665BE0F6D9444E676BD6235AB37641 /* ChannelDetailsUserRole.swift */; };
+		9CC9508BF98A7CDBF28589C3172F2BED /* ChannelDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F32767154CE64E3BFB59FAE4F529C6B /* ChannelDetailsViewController.swift */; };
+		9D46F30BDEFF6E2100C186B766B54504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA51FC21FE58CB7CEF58117D69DCA21F /* Assets.xcassets */; };
 		9D4DD7E4361702467D177188DBFBB871 /* Pods-HCPChat_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAF217CE8717A35EA44C9992F0094BF /* Pods-HCPChat_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A71936861FCA7A4671000C36DC866ED7 /* ChatCustomTagView.xib in Sources */ = {isa = PBXBuildFile; fileRef = A3D1BACE6AE7F76E7EB495BF2D84ACC7 /* ChatCustomTagView.xib */; };
+		9F43C251D9EA20CED87F18DE18A84577 /* ChannelDetailsUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B839EC72AA2766A8442F737049732F97 /* ChannelDetailsUser.swift */; };
 		A9F38670466F3F0A8DFE4E298D634335 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		AC0F893C60B2217075B8113A97917600 /* ChannelDetailsUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741857229EE1BB794F622E1AE38BF24C /* ChannelDetailsUser.swift */; };
-		B8C87290F3BF25E29CBDA2A474E80460 /* ChatCustomTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0493B39F985CFCE751B0D8ECEF25E733 /* ChatCustomTagView.swift */; };
-		C6D751AE9AF228F9E4F5EB4EC6C66BDA /* ChatCustomTagView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3D1BACE6AE7F76E7EB495BF2D84ACC7 /* ChatCustomTagView.xib */; };
-		D6059E00EDBB56609A4B3460140D200B /* ChannelDetailsUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAE3DDF1494E8592E22A615DAEE1F83 /* ChannelDetailsUserCell.swift */; };
+		B938452F7BDEE4E2D828A2CDF190D154 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141650BCFF778D31ACF572901814C46F /* String+Extensions.swift */; };
+		CD589BFA024B6B65DC193A6FBC422141 /* CircularAvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40248DE12F4780A0B4273DA7838BCE42 /* CircularAvatarView.swift */; };
 		D99979E3E573D7E4C098338DAE2C4CD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		E2C0BEFF26412E5253684A2562C27D47 /* CircularAvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CB267F148C925431671F3B2C3B5C21 /* CircularAvatarView.swift */; };
+		DD59B3B2620648CFABF5CE61A159FC19 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28861F8B2F39841AE036D48201731D58 /* Coordinator.swift */; };
+		E59E011A9BAD6AB8164DF760E83B65D5 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3AA1C219B845299AF570D8A03865F1 /* MainCoordinator.swift */; };
 		E7683661F684FEA8CED281BFD437C265 /* Pods-HCPChat_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C312AD56A1AF46BCD70756CFFABF5AF1 /* Pods-HCPChat_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F087D22AE3669F02E73B77BB4489C4F4 /* HCPChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5831D90B29A675E5FB4252014A1FD952 /* HCPChat.swift */; };
+		EE18597F9634A4A088FB08A77355761E /* ChannelDetailsViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 5F592428E3A06E08546322A46DE35F3F /* ChannelDetailsViewController.xib */; };
+		FF21119F1322B7DC5DB92D239B42FEFC /* ChatCustomTagView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD69FC01C9703F311D8F6921CC66531E /* ChatCustomTagView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4D7F07BAA4E6D7598034DD0DDDB6D3BD /* PBXContainerItemProxy */ = {
+		1212E6EB74D491CFC62DDF51B26B23B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9A3A2CD3ACFE91AD469139EE0B7DC50D;
-			remoteInfo = HCPChat;
+			remoteGlobalIDString = 3A49971F16C114258A534BEEE094303E;
+			remoteInfo = SendBirdSDK;
 		};
-		961CD589F548BB784710B477A1A38C88 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 89D97488C4F8726AB4F3C61EDD95CC56;
-			remoteInfo = SendBirdUIKit;
-		};
-		9C7B3B16960B6750F6BC612AB2F4090A /* PBXContainerItemProxy */ = {
+		13355F93967A98221A0FB3E5F0C5DA34 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CCFF32134693CDDEEFB321014911CF57;
 			remoteInfo = "HCPChat-HCPChat";
 		};
-		A164B20553A1762BF7E6C51DB7B9ED6B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3A49971F16C114258A534BEEE094303E;
-			remoteInfo = SendBirdSDK;
-		};
-		A46033A71C262AD5BD166E451EAE9AC1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3A49971F16C114258A534BEEE094303E;
-			remoteInfo = SendBirdSDK;
-		};
-		BC5D1BBCF4039BDE9B4A9D00C4973DC3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 541FC5859107D94FEF2DF20755E26AFE;
-			remoteInfo = "Pods-HCPChat_Example";
-		};
-		C113BFFBF793C040915C6EC2D89C6738 /* PBXContainerItemProxy */ = {
+		309E926DD6E2B24914BEF1DEE7FAAB11 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 89D97488C4F8726AB4F3C61EDD95CC56;
 			remoteInfo = SendBirdUIKit;
 		};
+		34D7BB6233386E9C0226F6A4B5C42B3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 541FC5859107D94FEF2DF20755E26AFE;
+			remoteInfo = "Pods-HCPChat_Example";
+		};
+		95013C309AE45ECEB6A21CBBA1359F76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A49971F16C114258A534BEEE094303E;
+			remoteInfo = SendBirdSDK;
+		};
+		AE6E565DF34CA2D3F2234F3F78F1D0A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89D97488C4F8726AB4F3C61EDD95CC56;
+			remoteInfo = SendBirdUIKit;
+		};
+		BA47D06F9B9DFC30CEFD1114246703F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A3A2CD3ACFE91AD469139EE0B7DC50D;
+			remoteInfo = HCPChat;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0493B39F985CFCE751B0D8ECEF25E733 /* ChatCustomTagView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ChatCustomTagView.swift; sourceTree = "<group>"; };
-		0DAB3B850B8F10ACA2FB4175616578EE /* ChannelDetailsUserRole.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ChannelDetailsUserRole.swift; sourceTree = "<group>"; };
+		010B81CEDE7784369F09B5A61E8A19E4 /* ResourceBundle-HCPChat-HCPChat-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-HCPChat-HCPChat-Info.plist"; sourceTree = "<group>"; };
+		04DA17929F0B351FBED4F3C1744CD97F /* HCPChat.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HCPChat.modulemap; sourceTree = "<group>"; };
+		0E5EDD42B12754BAD2CBC95B0B83FE44 /* ChatCustomTagView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ChatCustomTagView.swift; sourceTree = "<group>"; };
+		141650BCFF778D31ACF572901814C46F /* String+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		1D824368CC9E2E48A84164E898CE2738 /* CircularAvatarView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = CircularAvatarView.xib; sourceTree = "<group>"; };
+		28861F8B2F39841AE036D48201731D58 /* Coordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		2DFB71E172DE9488A895056F7E77D34E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		302A50BE208C9E97E6C79BC0EB0864FD /* Pods-HCPChat_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HCPChat_Example-frameworks.sh"; sourceTree = "<group>"; };
 		34166F8726A2136EDE9AAD8FCCAF0C4B /* Pods-HCPChat_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HCPChat_Tests.modulemap"; sourceTree = "<group>"; };
-		3B0019B1129CA8A9114B2AA66020CEE5 /* SendBirdSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = SendBirdSDK.xcframework; path = Sources/SendBirdSDK.xcframework; sourceTree = "<group>"; };
+		36388160B945B0037A7C4EE495894826 /* HCPChat-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HCPChat-Info.plist"; sourceTree = "<group>"; };
+		3B0019B1129CA8A9114B2AA66020CEE5 /* SendBirdSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = SendBirdSDK.xcframework; path = Sources/SendBirdSDK.xcframework; sourceTree = "<group>"; };
+		3D1CD3C6983E455563645D5763F167AE /* ChannelDetailsUserCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = ChannelDetailsUserCell.xib; sourceTree = "<group>"; };
+		40248DE12F4780A0B4273DA7838BCE42 /* CircularAvatarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CircularAvatarView.swift; sourceTree = "<group>"; };
+		45177E23FBD1F67C6399CEA64C982799 /* HCPChat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HCPChat-dummy.m"; sourceTree = "<group>"; };
 		475A03EC93C04EA0C5E09C53EFD53D1D /* Pods-HCPChat_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HCPChat_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		480C6AF4893DDFD7402535A91913A473 /* HCPChat.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HCPChat.modulemap; sourceTree = "<group>"; };
+		4A8DD4D3315A46DE2232DA5500B64C94 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		4F4A7EBBE264F07BABE9EED2810AFFAD /* SendBirdSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SendBirdSDK.debug.xcconfig; sourceTree = "<group>"; };
 		577A86AB9EB8CE4DD6827345D0A5FF30 /* SendBirdUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SendBirdUIKit.release.xcconfig; sourceTree = "<group>"; };
-		5831D90B29A675E5FB4252014A1FD952 /* HCPChat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HCPChat.swift; path = HCPChat/Classes/HCPChat.swift; sourceTree = "<group>"; };
-		59CA728B17448EDC253695F876B4C724 /* HCPChat-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HCPChat-Info.plist"; sourceTree = "<group>"; };
-		5C847C98601CAACA3B0290231BDF72A1 /* ChannelDetailsUserCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = ChannelDetailsUserCell.xib; sourceTree = "<group>"; };
-		5D0D3D9AC0B137FB62D5593CD66BB85F /* HCPChat-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HCPChat-umbrella.h"; sourceTree = "<group>"; };
+		5CA4FB813FCE714C17B77AC3BE71DDB5 /* HCPChat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HCPChat.swift; path = HCPChat/Classes/HCPChat.swift; sourceTree = "<group>"; };
 		5E7F727011E8DA9BD81C6C425EAC267D /* SendBirdSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SendBirdSDK.release.xcconfig; sourceTree = "<group>"; };
+		5F592428E3A06E08546322A46DE35F3F /* ChannelDetailsViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = ChannelDetailsViewController.xib; sourceTree = "<group>"; };
 		613E5BBD1625AEEB00D707473877E0B2 /* SendBirdUIKit-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "SendBirdUIKit-xcframeworks.sh"; sourceTree = "<group>"; };
 		634520CE951BAF055878F8FB0B66EBF2 /* Pods-HCPChat_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HCPChat_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		65A39592FBEF05F6551695C52CF9935B /* CircularAvatarView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = CircularAvatarView.xib; sourceTree = "<group>"; };
-		68B6FC81096123270FFE7FC0BF7E4495 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		71D9934D619454F0CDE33456EB88AFD7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		71E46CC3173FA92E2AAE609965201A40 /* HCPChat-HCPChat */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "HCPChat-HCPChat"; path = HCPChat.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		7235DC18419A1823E87DA01A83E7F7C2 /* Pods-HCPChat_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HCPChat_Example.release.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		733B89A832FCA1FC2FA77F524123AAA2 /* SendBirdSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "SendBirdSDK-xcframeworks.sh"; sourceTree = "<group>"; };
-		741857229EE1BB794F622E1AE38BF24C /* ChannelDetailsUser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ChannelDetailsUser.swift; sourceTree = "<group>"; };
-		798D87B7C5DD06A05BD817810F5A758E /* Coordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		75DF717E4F3A2DB4B5BB5740727BCA88 /* HCPChat.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HCPChat.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7AE180B3EEB8B9061860F7237502F0AD /* Pods-HCPChat_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HCPChat_Tests-Info.plist"; sourceTree = "<group>"; };
-		7BAE3DDF1494E8592E22A615DAEE1F83 /* ChannelDetailsUserCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ChannelDetailsUserCell.swift; sourceTree = "<group>"; };
 		7C74534915C5805094F0B2ED4A74EDCC /* Pods-HCPChat_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HCPChat_Example-dummy.m"; sourceTree = "<group>"; };
 		81BDCD133F5A8EA02CB1EF26B35B9917 /* Pods-HCPChat_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HCPChat_Example-resources.sh"; sourceTree = "<group>"; };
-		892FFE51124F4AFF9B27F811B64B6ED6 /* HCPChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HCPChat.release.xcconfig; sourceTree = "<group>"; };
 		8EF62AEDD322C0C8CBA81AB05D66FB19 /* Pods-HCPChat_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HCPChat_Example.modulemap"; sourceTree = "<group>"; };
-		90DBB237F4DBCB780D7B2478719464DF /* ResourceBundle-HCPChat-HCPChat-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-HCPChat-HCPChat-Info.plist"; sourceTree = "<group>"; };
+		8F32767154CE64E3BFB59FAE4F529C6B /* ChannelDetailsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ChannelDetailsViewController.swift; sourceTree = "<group>"; };
 		910C58D12B223DFB9F4477C9CAC7CF26 /* Pods-HCPChat_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HCPChat_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		961507436F3EF517D772BB243B5DD1D5 /* HCPChat-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HCPChat-prefix.pch"; sourceTree = "<group>"; };
 		975594BA0593F9E3A02B705E4E494D80 /* Pods-HCPChat_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HCPChat_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FAF217CE8717A35EA44C9992F0094BF /* Pods-HCPChat_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HCPChat_Tests-umbrella.h"; sourceTree = "<group>"; };
-		A3D1BACE6AE7F76E7EB495BF2D84ACC7 /* ChatCustomTagView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = ChatCustomTagView.xib; sourceTree = "<group>"; };
-		A865CD8AC22DEC5E3366949C4A6AC8C6 /* MainCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		AB665BE0F6D9444E676BD6235AB37641 /* ChannelDetailsUserRole.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ChannelDetailsUserRole.swift; sourceTree = "<group>"; };
 		AB932A48BDB40AF854B8DC42108E3B1A /* Pods-HCPChat_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HCPChat_Tests"; path = Pods_HCPChat_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B08F3CA357FEB3C461FA272EC5891958 /* ChannelDetailsViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ChannelDetailsViewModel.swift; sourceTree = "<group>"; };
+		AF3AA1C219B845299AF570D8A03865F1 /* MainCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		B839EC72AA2766A8442F737049732F97 /* ChannelDetailsUser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ChannelDetailsUser.swift; sourceTree = "<group>"; };
+		BA51FC21FE58CB7CEF58117D69DCA21F /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0F8CA1B321FB8EE082E15869DDF06D4 /* SendBirdUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SendBirdUIKit.debug.xcconfig; sourceTree = "<group>"; };
 		C312AD56A1AF46BCD70756CFFABF5AF1 /* Pods-HCPChat_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HCPChat_Example-umbrella.h"; sourceTree = "<group>"; };
+		C50BBDC3B569F9E44BEE997C7BE072CB /* HCPChat-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HCPChat-umbrella.h"; sourceTree = "<group>"; };
+		CD116678E8210884CF866D1E828FC301 /* ChannelDetailsViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ChannelDetailsViewModel.swift; sourceTree = "<group>"; };
 		CD1B3BB25641B1C85697C9F4E2C2272E /* Pods-HCPChat_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HCPChat_Example"; path = Pods_HCPChat_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEFB6866F7D53077F981333F076A9631 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CD69FC01C9703F311D8F6921CC66531E /* ChatCustomTagView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = ChatCustomTagView.xib; sourceTree = "<group>"; };
 		CFA883B6F8481D79A1131A123C452349 /* HCPChat */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HCPChat; path = HCPChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D22FB2769DF2C65906EA6AAB2352BDD8 /* ChannelDetailsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ChannelDetailsViewController.swift; sourceTree = "<group>"; };
-		D3CB267F148C925431671F3B2C3B5C21 /* CircularAvatarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CircularAvatarView.swift; sourceTree = "<group>"; };
+		D23EB55E71E501213642D7596590478D /* ChannelDetailsUserCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ChannelDetailsUserCell.swift; sourceTree = "<group>"; };
 		DF085C4E3CD4D6666E00FA2BAFA04CCB /* Pods-HCPChat_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HCPChat_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		DF6897C9004F4D1CF81A49CC0DEEAAD5 /* String+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		E287B90DDBD029B6D4E003B89E8638E5 /* Pods-HCPChat_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HCPChat_Example-Info.plist"; sourceTree = "<group>"; };
-		E305230438E55B249B1A06CD5B07BA85 /* HCPChat-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HCPChat-prefix.pch"; sourceTree = "<group>"; };
-		E740A8CFDCB277C6DC4E04DF4F737064 /* HCPChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HCPChat.debug.xcconfig; sourceTree = "<group>"; };
-		EF602C58E03FB670C55D7F7A0E5169E2 /* ChannelDetailsViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = ChannelDetailsViewController.xib; sourceTree = "<group>"; };
+		E465BEA3A51AD855FE5A35F3DB9C87C0 /* HCPChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HCPChat.release.xcconfig; sourceTree = "<group>"; };
+		E546FA47F634F623F396558D9C09E690 /* HCPChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HCPChat.debug.xcconfig; sourceTree = "<group>"; };
 		F14556AD9D41AEB83926EDB02E20DB47 /* Pods-HCPChat_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HCPChat_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F862A0EEDE3514AA4968B1C4C3456DD6 /* SendBirdUIKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = SendBirdUIKit.xcframework; path = Framework/SendBirdUIKit.xcframework; sourceTree = "<group>"; };
+		F862A0EEDE3514AA4968B1C4C3456DD6 /* SendBirdUIKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = SendBirdUIKit.xcframework; path = Framework/SendBirdUIKit.xcframework; sourceTree = "<group>"; };
 		F907288FC2FA50AF14A5F31BB8FF8048 /* Pods-HCPChat_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HCPChat_Tests-dummy.m"; sourceTree = "<group>"; };
-		FB6CFE69A49963F448872AEFACD62AE7 /* HCPChat.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HCPChat.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		FDA187CB992433D9DC1E9F193A8E0AA4 /* HCPChat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HCPChat-dummy.m"; sourceTree = "<group>"; };
 		FF9CD93C98F1EF269A31E9770F891FA3 /* Pods-HCPChat_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HCPChat_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		009AD90457E044FE1B37D9D0FB5989F7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0D6DE0EDE9E7C32C43F4A1577E02C1FD /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9E8F9D0AE0558F430EEFD183F0C16D35 /* Frameworks */ = {
+		46BBA982759BE222A543F9553981B2A1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -210,19 +200,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B5A36530BFCD2FD58275644766E01A36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DAF1EBE7BF3DC6C5168BAE048DC7BEF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0050E91A380AFC5771AA5AD3A37F1CF1 /* Coordinator */ = {
-			isa = PBXGroup;
-			children = (
-				798D87B7C5DD06A05BD817810F5A758E /* Coordinator.swift */,
-				A865CD8AC22DEC5E3366949C4A6AC8C6 /* MainCoordinator.swift */,
-			);
-			name = Coordinator;
-			path = HCPChat/Classes/Coordinator;
-			sourceTree = "<group>";
-		};
 		03762B59DEC82498861771EE9B025533 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -232,6 +220,33 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SendBirdSDK";
+			sourceTree = "<group>";
+		};
+		0891F2F4F258691F71BDAC895197633B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8F32767154CE64E3BFB59FAE4F529C6B /* ChannelDetailsViewController.swift */,
+				5F592428E3A06E08546322A46DE35F3F /* ChannelDetailsViewController.xib */,
+				E52B087E880F618E9B7144897AF0D2D6 /* Cell */,
+			);
+			name = View;
+			path = View;
+			sourceTree = "<group>";
+		};
+		095E829C962B988AE2E14E49EA78756C /* HCPChat */ = {
+			isa = PBXGroup;
+			children = (
+				5CA4FB813FCE714C17B77AC3BE71DDB5 /* HCPChat.swift */,
+				943FDE7B56553719EEF9C7B17980F493 /* Assets */,
+				6BA8FE8D3C2E90426B7A1D018313F95F /* ChannelDetails */,
+				3747B1B8D71A4CDA0C63430076053D25 /* Coordinator */,
+				A66D76350B2B096B7EAA1A07ADD434D8 /* Extensions */,
+				2BC5B81E74DDE341C898E1CB112792F6 /* Pod */,
+				ADD253AE01C31FB37B5BEDE81DF9383D /* Shared */,
+				B495D1B35A9C33B0FF44A531E73A4048 /* Support Files */,
+			);
+			name = HCPChat;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		0CF51B69EB30444970D58C7FC600ED9F /* Pods-HCPChat_Tests */ = {
@@ -250,15 +265,6 @@
 			path = "Target Support Files/Pods-HCPChat_Tests";
 			sourceTree = "<group>";
 		};
-		13B97818C405F81C4CB1D00159D10E3E /* TagView */ = {
-			isa = PBXGroup;
-			children = (
-				0493B39F985CFCE751B0D8ECEF25E733 /* ChatCustomTagView.swift */,
-				A3D1BACE6AE7F76E7EB495BF2D84ACC7 /* ChatCustomTagView.xib */,
-			);
-			path = TagView;
-			sourceTree = "<group>";
-		};
 		26F8046E5BE7E9ADCE19D86E503A81A5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -270,13 +276,44 @@
 			path = "../Target Support Files/SendBirdUIKit";
 			sourceTree = "<group>";
 		};
-		4B278AC24F1374DD36AE149C11DA2FDE /* Extensions */ = {
+		2BC5B81E74DDE341C898E1CB112792F6 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				DF6897C9004F4D1CF81A49CC0DEEAAD5 /* String+Extensions.swift */,
+				75DF717E4F3A2DB4B5BB5740727BCA88 /* HCPChat.podspec */,
+				4A8DD4D3315A46DE2232DA5500B64C94 /* LICENSE */,
+				2DFB71E172DE9488A895056F7E77D34E /* README.md */,
 			);
-			name = Extensions;
-			path = HCPChat/Classes/Extensions;
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		2C7166D76854DB4B03EEE6BEE28A5279 /* AvatarView */ = {
+			isa = PBXGroup;
+			children = (
+				40248DE12F4780A0B4273DA7838BCE42 /* CircularAvatarView.swift */,
+				1D824368CC9E2E48A84164E898CE2738 /* CircularAvatarView.xib */,
+			);
+			name = AvatarView;
+			path = AvatarView;
+			sourceTree = "<group>";
+		};
+		2DC71CBB9AACC660EB231800E1FE61C1 /* TagView */ = {
+			isa = PBXGroup;
+			children = (
+				0E5EDD42B12754BAD2CBC95B0B83FE44 /* ChatCustomTagView.swift */,
+				CD69FC01C9703F311D8F6921CC66531E /* ChatCustomTagView.xib */,
+			);
+			name = TagView;
+			path = TagView;
+			sourceTree = "<group>";
+		};
+		3747B1B8D71A4CDA0C63430076053D25 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				28861F8B2F39841AE036D48201731D58 /* Coordinator.swift */,
+				AF3AA1C219B845299AF570D8A03865F1 /* MainCoordinator.swift */,
+			);
+			name = Coordinator;
+			path = HCPChat/Classes/Coordinator;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -296,59 +333,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		5CDDB8415F1CB9F93D796A8FBE34F831 /* Assets */ = {
+		6BA8FE8D3C2E90426B7A1D018313F95F /* ChannelDetails */ = {
 			isa = PBXGroup;
 			children = (
-				68B6FC81096123270FFE7FC0BF7E4495 /* Assets.xcassets */,
+				96D14D709C7603FB37B3289DB55928A7 /* Model */,
+				0891F2F4F258691F71BDAC895197633B /* View */,
+				8A9AFB3277CA7C1C791DD06FF4FDD0DC /* ViewModel */,
 			);
-			name = Assets;
-			path = HCPChat/Assets;
-			sourceTree = "<group>";
-		};
-		6524EBA2D3070BE4ABAA981FBFCAB632 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				FB6CFE69A49963F448872AEFACD62AE7 /* HCPChat.podspec */,
-				71D9934D619454F0CDE33456EB88AFD7 /* LICENSE */,
-				CEFB6866F7D53077F981333F076A9631 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		678705ADCF915AB59840EC89D36EFFC1 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				B08F3CA357FEB3C461FA272EC5891958 /* ChannelDetailsViewModel.swift */,
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		69EBB92FBC652180F2E1726978363C20 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				D22FB2769DF2C65906EA6AAB2352BDD8 /* ChannelDetailsViewController.swift */,
-				EF602C58E03FB670C55D7F7A0E5169E2 /* ChannelDetailsViewController.xib */,
-				FEABC525C759465B147624D98E7B2C0C /* Cell */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		7EC3A9C12E18F452828DF6C7AADCA0C0 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				741857229EE1BB794F622E1AE38BF24C /* ChannelDetailsUser.swift */,
-				0DAB3B850B8F10ACA2FB4175616578EE /* ChannelDetailsUserRole.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		7FF9E8B2D8EE7DC80ADA91B417424ED7 /* AvatarView */ = {
-			isa = PBXGroup;
-			children = (
-				D3CB267F148C925431671F3B2C3B5C21 /* CircularAvatarView.swift */,
-				65A39592FBEF05F6551695C52CF9935B /* CircularAvatarView.xib */,
-			);
-			path = AvatarView;
+			name = ChannelDetails;
+			path = HCPChat/Classes/ChannelDetails;
 			sourceTree = "<group>";
 		};
 		80B7A214C9A909CED5D75787E98950C2 /* Targets Support Files */ = {
@@ -366,25 +359,52 @@
 				E47C90728D6632E43065A509FDF6429A /* Frameworks */,
 				26F8046E5BE7E9ADCE19D86E503A81A5 /* Support Files */,
 			);
+			name = SendBirdUIKit;
 			path = SendBirdUIKit;
 			sourceTree = "<group>";
 		};
-		96E430B25BE7D7813F1A8293B39C2030 /* ChannelDetails */ = {
+		8A9AFB3277CA7C1C791DD06FF4FDD0DC /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				7EC3A9C12E18F452828DF6C7AADCA0C0 /* Model */,
-				69EBB92FBC652180F2E1726978363C20 /* View */,
-				678705ADCF915AB59840EC89D36EFFC1 /* ViewModel */,
+				CD116678E8210884CF866D1E828FC301 /* ChannelDetailsViewModel.swift */,
 			);
-			name = ChannelDetails;
-			path = HCPChat/Classes/ChannelDetails;
+			name = ViewModel;
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		A2CBC246FDA9582469090570B29DDEDC /* Shared */ = {
+		943FDE7B56553719EEF9C7B17980F493 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				7FF9E8B2D8EE7DC80ADA91B417424ED7 /* AvatarView */,
-				13B97818C405F81C4CB1D00159D10E3E /* TagView */,
+				BA51FC21FE58CB7CEF58117D69DCA21F /* Assets.xcassets */,
+			);
+			name = Assets;
+			path = HCPChat/Assets;
+			sourceTree = "<group>";
+		};
+		96D14D709C7603FB37B3289DB55928A7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B839EC72AA2766A8442F737049732F97 /* ChannelDetailsUser.swift */,
+				AB665BE0F6D9444E676BD6235AB37641 /* ChannelDetailsUserRole.swift */,
+			);
+			name = Model;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A66D76350B2B096B7EAA1A07ADD434D8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				141650BCFF778D31ACF572901814C46F /* String+Extensions.swift */,
+			);
+			name = Extensions;
+			path = HCPChat/Classes/Extensions;
+			sourceTree = "<group>";
+		};
+		ADD253AE01C31FB37B5BEDE81DF9383D /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				2C7166D76854DB4B03EEE6BEE28A5279 /* AvatarView */,
+				2DC71CBB9AACC660EB231800E1FE61C1 /* TagView */,
 			);
 			name = Shared;
 			path = HCPChat/Classes/Shared;
@@ -398,19 +418,36 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B495D1B35A9C33B0FF44A531E73A4048 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				04DA17929F0B351FBED4F3C1744CD97F /* HCPChat.modulemap */,
+				45177E23FBD1F67C6399CEA64C982799 /* HCPChat-dummy.m */,
+				36388160B945B0037A7C4EE495894826 /* HCPChat-Info.plist */,
+				961507436F3EF517D772BB243B5DD1D5 /* HCPChat-prefix.pch */,
+				C50BBDC3B569F9E44BEE997C7BE072CB /* HCPChat-umbrella.h */,
+				E546FA47F634F623F396558D9C09E690 /* HCPChat.debug.xcconfig */,
+				E465BEA3A51AD855FE5A35F3DB9C87C0 /* HCPChat.release.xcconfig */,
+				010B81CEDE7784369F09B5A61E8A19E4 /* ResourceBundle-HCPChat-HCPChat-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HCPChat";
+			sourceTree = "<group>";
+		};
 		BB9C2D1C37299D55CE588732869E661F /* SendBirdSDK */ = {
 			isa = PBXGroup;
 			children = (
 				AF9B5253438FC3B7235B8FD2B42D4C37 /* Frameworks */,
 				03762B59DEC82498861771EE9B025533 /* Support Files */,
 			);
+			name = SendBirdSDK;
 			path = SendBirdSDK;
 			sourceTree = "<group>";
 		};
 		C49AF478D78520D638AA4862995721A8 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FF6C85EB87A2AE6485AAB26010A146FE /* HCPChat */,
+				095E829C962B988AE2E14E49EA78756C /* HCPChat */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -435,28 +472,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DA8240C9D650B35615E69AAB30903A67 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				480C6AF4893DDFD7402535A91913A473 /* HCPChat.modulemap */,
-				FDA187CB992433D9DC1E9F193A8E0AA4 /* HCPChat-dummy.m */,
-				59CA728B17448EDC253695F876B4C724 /* HCPChat-Info.plist */,
-				E305230438E55B249B1A06CD5B07BA85 /* HCPChat-prefix.pch */,
-				5D0D3D9AC0B137FB62D5593CD66BB85F /* HCPChat-umbrella.h */,
-				E740A8CFDCB277C6DC4E04DF4F737064 /* HCPChat.debug.xcconfig */,
-				892FFE51124F4AFF9B27F811B64B6ED6 /* HCPChat.release.xcconfig */,
-				90DBB237F4DBCB780D7B2478719464DF /* ResourceBundle-HCPChat-HCPChat-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HCPChat";
-			sourceTree = "<group>";
-		};
 		E47C90728D6632E43065A509FDF6429A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				F862A0EEDE3514AA4968B1C4C3456DD6 /* SendBirdUIKit.xcframework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E52B087E880F618E9B7144897AF0D2D6 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D23EB55E71E501213642D7596590478D /* ChannelDetailsUserCell.swift */,
+				3D1CD3C6983E455563645D5763F167AE /* ChannelDetailsUserCell.xib */,
+			);
+			name = Cell;
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		F1753D2412B6862E8BA84379900F7018 /* Pods-HCPChat_Example */ = {
@@ -488,31 +519,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FEABC525C759465B147624D98E7B2C0C /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-				7BAE3DDF1494E8592E22A615DAEE1F83 /* ChannelDetailsUserCell.swift */,
-				5C847C98601CAACA3B0290231BDF72A1 /* ChannelDetailsUserCell.xib */,
-			);
-			path = Cell;
-			sourceTree = "<group>";
-		};
-		FF6C85EB87A2AE6485AAB26010A146FE /* HCPChat */ = {
-			isa = PBXGroup;
-			children = (
-				5831D90B29A675E5FB4252014A1FD952 /* HCPChat.swift */,
-				5CDDB8415F1CB9F93D796A8FBE34F831 /* Assets */,
-				96E430B25BE7D7813F1A8293B39C2030 /* ChannelDetails */,
-				0050E91A380AFC5771AA5AD3A37F1CF1 /* Coordinator */,
-				4B278AC24F1374DD36AE149C11DA2FDE /* Extensions */,
-				6524EBA2D3070BE4ABAA981FBFCAB632 /* Pod */,
-				A2CBC246FDA9582469090570B29DDEDC /* Shared */,
-				DA8240C9D650B35615E69AAB30903A67 /* Support Files */,
-			);
-			name = HCPChat;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -532,11 +538,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E8D49788A27DB9690E52A69F22B8C9BB /* Headers */ = {
+		6D72FAC57356FA6977FD44B145BBA2C3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9ACF43FF736CC9E0167EEA7A0465C3D3 /* HCPChat-umbrella.h in Headers */,
+				6FFA414791067A6FB7172318BBA30011 /* HCPChat-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,9 +561,9 @@
 			buildRules = (
 			);
 			dependencies = (
-				273AB33DE7C62476D61AEE054BE54727 /* PBXTargetDependency */,
-				766E37F3801010A2C9C2BD1EA168B396 /* PBXTargetDependency */,
-				D198C2170067718BD9B6D4CB605AA5F8 /* PBXTargetDependency */,
+				C362C966CE2F82759E16C7B869F41228 /* PBXTargetDependency */,
+				1E4B52CB02EF7E78F85A30F91CA9ECC6 /* PBXTargetDependency */,
+				AEFA10AA2C2AE0F2D05B9AD782F2C4FB /* PBXTargetDependency */,
 			);
 			name = "Pods-HCPChat_Example";
 			productName = Pods_HCPChat_Example;
@@ -576,7 +582,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				204A15ACCA7F1B4A691181108EFE2609 /* PBXTargetDependency */,
+				271F5CF7E7F32737DDDBD34066B827E1 /* PBXTargetDependency */,
 			);
 			name = "Pods-HCPChat_Tests";
 			productName = Pods_HCPChat_Tests;
@@ -585,18 +591,18 @@
 		};
 		9A3A2CD3ACFE91AD469139EE0B7DC50D /* HCPChat */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 20864A858B783C1A4B6FABF8779E5749 /* Build configuration list for PBXNativeTarget "HCPChat" */;
+			buildConfigurationList = 861D852B2599DA3B3DF8B24686D33921 /* Build configuration list for PBXNativeTarget "HCPChat" */;
 			buildPhases = (
-				E8D49788A27DB9690E52A69F22B8C9BB /* Headers */,
-				8955F3863C0C0292DD7F27BE6422DC1E /* Sources */,
-				009AD90457E044FE1B37D9D0FB5989F7 /* Frameworks */,
-				DD5AC4283551C895CEC7CD7CBEC9B03B /* Resources */,
+				6D72FAC57356FA6977FD44B145BBA2C3 /* Headers */,
+				201B78BB8D69D6D42CE06D92F5E9F54F /* Sources */,
+				B5A36530BFCD2FD58275644766E01A36 /* Frameworks */,
+				1126EB0573272F7B8CBCF5551C8A9DBB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AE71B7837902E0F885DFD78DBF8F5ED3 /* PBXTargetDependency */,
-				2A028460B57A02080863860B6B7C42DF /* PBXTargetDependency */,
+				CDC49023CC4787C6494DA196E2DF2B1A /* PBXTargetDependency */,
+				70DB33C68F13A4B2F99FE817831373B8 /* PBXTargetDependency */,
 			);
 			name = HCPChat;
 			productName = HCPChat;
@@ -605,11 +611,11 @@
 		};
 		CCFF32134693CDDEEFB321014911CF57 /* HCPChat-HCPChat */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0B6BC31DAAE2AEF423FDA68BDC8B41DC /* Build configuration list for PBXNativeTarget "HCPChat-HCPChat" */;
+			buildConfigurationList = DC8D4B0AE78D0289CBC4F19D2E019068 /* Build configuration list for PBXNativeTarget "HCPChat-HCPChat" */;
 			buildPhases = (
-				AD0F6B119BA39454B1CCF986FE682A3E /* Sources */,
-				9E8F9D0AE0558F430EEFD183F0C16D35 /* Frameworks */,
-				8A14C2B0C0C14F75B97AA9EBACAFE699 /* Resources */,
+				BBE8942EB79CF22C985AC38A2738D0C8 /* Sources */,
+				46BBA982759BE222A543F9553981B2A1 /* Frameworks */,
+				3663D8D172D8DBD7149607C8830E9384 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -653,26 +659,26 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8A14C2B0C0C14F75B97AA9EBACAFE699 /* Resources */ = {
+		1126EB0573272F7B8CBCF5551C8A9DBB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76CC82A2D8E82192A050758F5492B13B /* Assets.xcassets in Resources */,
-				1664779D26261D8217FC9835F2181B74 /* ChannelDetailsUserCell.xib in Resources */,
-				130A4150C402923EEE0EB27CA9269A22 /* ChannelDetailsViewController.xib in Resources */,
-				C6D751AE9AF228F9E4F5EB4EC6C66BDA /* ChatCustomTagView.xib in Resources */,
-				5E70FC1F6BE74AF9BA39D6BBB7BFF61D /* CircularAvatarView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3663D8D172D8DBD7149607C8830E9384 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D46F30BDEFF6E2100C186B766B54504 /* Assets.xcassets in Resources */,
+				402205462002D2F0BF32499DE1B44D82 /* ChannelDetailsUserCell.xib in Resources */,
+				5CFDA334E5BD26B3E64A0054117F8C31 /* ChannelDetailsViewController.xib in Resources */,
+				FF21119F1322B7DC5DB92D239B42FEFC /* ChatCustomTagView.xib in Resources */,
+				8B9CA5A843BC64797BEEC6BB37047ED0 /* CircularAvatarView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C3D7174C8FAA98C215CB37678E2213A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DD5AC4283551C895CEC7CD7CBEC9B03B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -689,25 +695,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		29914AEB57F0E36653F9F43C6F342799 /* [CP] Copy XCFrameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/SendBirdSDK/SendBirdSDK-xcframeworks.sh",
-				"${PODS_ROOT}/SendBirdSDK/Sources/SendBirdSDK.xcframework",
-			);
-			name = "[CP] Copy XCFrameworks";
-			outputPaths = (
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/SendBirdSDK/SendBirdSDK.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/SendBirdSDK/SendBirdSDK-xcframeworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D90F2DB92527C17B48B439336F1D6542 /* [CP] Copy XCFrameworks */ = {
+		4775B2960C39252F1FE98335A41C37F0 /* [CP] Copy XCFrameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -725,6 +713,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/SendBirdUIKit/SendBirdUIKit-xcframeworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		AA48E3E220E79C945079014A0620C8AA /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/SendBirdSDK/SendBirdSDK-xcframeworks.sh",
+				"${PODS_ROOT}/SendBirdSDK/Sources/SendBirdSDK.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/SendBirdSDK/SendBirdSDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/SendBirdSDK/SendBirdSDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -736,30 +742,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8955F3863C0C0292DD7F27BE6422DC1E /* Sources */ = {
+		201B78BB8D69D6D42CE06D92F5E9F54F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC0F893C60B2217075B8113A97917600 /* ChannelDetailsUser.swift in Sources */,
-				D6059E00EDBB56609A4B3460140D200B /* ChannelDetailsUserCell.swift in Sources */,
-				0DABB667AF35DD9C182C650A85FA6456 /* ChannelDetailsUserCell.xib in Sources */,
-				49DE17A45318ECE82DBBAE897CD7EF3D /* ChannelDetailsUserRole.swift in Sources */,
-				174F5BB327970BF6D620E4D0A895ED73 /* ChannelDetailsViewController.swift in Sources */,
-				2D91915CB7861A8287FEB22ACF939674 /* ChannelDetailsViewController.xib in Sources */,
-				7F40C8BB7083BC884CF1CE35C713034C /* ChannelDetailsViewModel.swift in Sources */,
-				B8C87290F3BF25E29CBDA2A474E80460 /* ChatCustomTagView.swift in Sources */,
-				A71936861FCA7A4671000C36DC866ED7 /* ChatCustomTagView.xib in Sources */,
-				E2C0BEFF26412E5253684A2562C27D47 /* CircularAvatarView.swift in Sources */,
-				073AB492BE6603C2342C2FCA7A2A558E /* CircularAvatarView.xib in Sources */,
-				706F3424DB2BC386FE63463B910EC8A8 /* Coordinator.swift in Sources */,
-				F087D22AE3669F02E73B77BB4489C4F4 /* HCPChat.swift in Sources */,
-				56DD5896C396202BAE1F459A26AFC5F0 /* HCPChat-dummy.m in Sources */,
-				30E4AB508C31D6643256C28B90A45F25 /* MainCoordinator.swift in Sources */,
-				6290540058EFCC336BAB762E58594028 /* String+Extensions.swift in Sources */,
+				9F43C251D9EA20CED87F18DE18A84577 /* ChannelDetailsUser.swift in Sources */,
+				48C826C6EEAC70A9EC2804D5B3F4F4CC /* ChannelDetailsUserCell.swift in Sources */,
+				61252709B7F1FC3A5BF3336885B400EA /* ChannelDetailsUserCell.xib in Sources */,
+				915EED2BEFE7F174362DFC56117FA080 /* ChannelDetailsUserRole.swift in Sources */,
+				9CC9508BF98A7CDBF28589C3172F2BED /* ChannelDetailsViewController.swift in Sources */,
+				EE18597F9634A4A088FB08A77355761E /* ChannelDetailsViewController.xib in Sources */,
+				392FC694BD4D45CC3895383E10807987 /* ChannelDetailsViewModel.swift in Sources */,
+				6B2ABBCFF0A031502F72786FB88F9A0D /* ChatCustomTagView.swift in Sources */,
+				88C143D05A3F075E28F9CF1343863366 /* ChatCustomTagView.xib in Sources */,
+				CD589BFA024B6B65DC193A6FBC422141 /* CircularAvatarView.swift in Sources */,
+				7DD300E2204769BF8CB2088336558EBE /* CircularAvatarView.xib in Sources */,
+				DD59B3B2620648CFABF5CE61A159FC19 /* Coordinator.swift in Sources */,
+				3203A85217C64175E3791E240008EC4A /* HCPChat.swift in Sources */,
+				4833A05DA3A6D51F370B82811CACB05F /* HCPChat-dummy.m in Sources */,
+				E59E011A9BAD6AB8164DF760E83B65D5 /* MainCoordinator.swift in Sources */,
+				B938452F7BDEE4E2D828A2CDF190D154 /* String+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AD0F6B119BA39454B1CCF986FE682A3E /* Sources */ = {
+		BBE8942EB79CF22C985AC38A2738D0C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -777,54 +783,54 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		204A15ACCA7F1B4A691181108EFE2609 /* PBXTargetDependency */ = {
+		1E4B52CB02EF7E78F85A30F91CA9ECC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SendBirdSDK;
+			target = 3A49971F16C114258A534BEEE094303E /* SendBirdSDK */;
+			targetProxy = 95013C309AE45ECEB6A21CBBA1359F76 /* PBXContainerItemProxy */;
+		};
+		1E974FAB8C3A56D2AAA9452B3264FDCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SendBirdSDK;
+			target = 3A49971F16C114258A534BEEE094303E /* SendBirdSDK */;
+			targetProxy = 1212E6EB74D491CFC62DDF51B26B23B3 /* PBXContainerItemProxy */;
+		};
+		271F5CF7E7F32737DDDBD34066B827E1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-HCPChat_Example";
 			target = 541FC5859107D94FEF2DF20755E26AFE /* Pods-HCPChat_Example */;
-			targetProxy = BC5D1BBCF4039BDE9B4A9D00C4973DC3 /* PBXContainerItemProxy */;
+			targetProxy = 34D7BB6233386E9C0226F6A4B5C42B3B /* PBXContainerItemProxy */;
 		};
-		273AB33DE7C62476D61AEE054BE54727 /* PBXTargetDependency */ = {
+		70DB33C68F13A4B2F99FE817831373B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SendBirdUIKit;
+			target = 89D97488C4F8726AB4F3C61EDD95CC56 /* SendBirdUIKit */;
+			targetProxy = 309E926DD6E2B24914BEF1DEE7FAAB11 /* PBXContainerItemProxy */;
+		};
+		AEFA10AA2C2AE0F2D05B9AD782F2C4FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SendBirdUIKit;
+			target = 89D97488C4F8726AB4F3C61EDD95CC56 /* SendBirdUIKit */;
+			targetProxy = AE6E565DF34CA2D3F2234F3F78F1D0A5 /* PBXContainerItemProxy */;
+		};
+		C362C966CE2F82759E16C7B869F41228 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HCPChat;
 			target = 9A3A2CD3ACFE91AD469139EE0B7DC50D /* HCPChat */;
-			targetProxy = 4D7F07BAA4E6D7598034DD0DDDB6D3BD /* PBXContainerItemProxy */;
+			targetProxy = BA47D06F9B9DFC30CEFD1114246703F5 /* PBXContainerItemProxy */;
 		};
-		2A028460B57A02080863860B6B7C42DF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SendBirdUIKit;
-			target = 89D97488C4F8726AB4F3C61EDD95CC56 /* SendBirdUIKit */;
-			targetProxy = 961CD589F548BB784710B477A1A38C88 /* PBXContainerItemProxy */;
-		};
-		766E37F3801010A2C9C2BD1EA168B396 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SendBirdSDK;
-			target = 3A49971F16C114258A534BEEE094303E /* SendBirdSDK */;
-			targetProxy = A164B20553A1762BF7E6C51DB7B9ED6B /* PBXContainerItemProxy */;
-		};
-		AE71B7837902E0F885DFD78DBF8F5ED3 /* PBXTargetDependency */ = {
+		CDC49023CC4787C6494DA196E2DF2B1A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "HCPChat-HCPChat";
 			target = CCFF32134693CDDEEFB321014911CF57 /* HCPChat-HCPChat */;
-			targetProxy = 9C7B3B16960B6750F6BC612AB2F4090A /* PBXContainerItemProxy */;
-		};
-		D198C2170067718BD9B6D4CB605AA5F8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SendBirdUIKit;
-			target = 89D97488C4F8726AB4F3C61EDD95CC56 /* SendBirdUIKit */;
-			targetProxy = C113BFFBF793C040915C6EC2D89C6738 /* PBXContainerItemProxy */;
-		};
-		F7234D907AEB02E20E67EE64957BD708 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SendBirdSDK;
-			target = 3A49971F16C114258A534BEEE094303E /* SendBirdSDK */;
-			targetProxy = A46033A71C262AD5BD166E451EAE9AC1 /* PBXContainerItemProxy */;
+			targetProxy = 13355F93967A98221A0FB3E5F0C5DA34 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		051FD985B91795CCB42D780B02EDA952 /* Debug */ = {
+		14421AC219BBE6A3A6C646BAA66AE74E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E740A8CFDCB277C6DC4E04DF4F737064 /* HCPChat.debug.xcconfig */;
+			baseConfigurationReference = E465BEA3A51AD855FE5A35F3DB9C87C0 /* HCPChat.release.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HCPChat";
 				IBSC_MODULE = HCPChat;
@@ -836,7 +842,7 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
 		};
 		1C395D38B1CBE09456509F5A013E83AC /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -872,6 +878,37 @@
 			};
 			name = Debug;
 		};
+		58B39CA5BCB6C4ECE2826B763AD62D16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E546FA47F634F623F396558D9C09E690 /* HCPChat.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HCPChat";
+				IBSC_MODULE = HCPChat;
+				INFOPLIST_FILE = "Target Support Files/HCPChat/ResourceBundle-HCPChat-HCPChat-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = HCPChat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		5DA573A4F7C186B2AFA7C480E53A3CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E7F727011E8DA9BD81C6C425EAC267D /* SendBirdSDK.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		6CE8C598D5EF0A4E5C7A07E84CD55B13 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F14556AD9D41AEB83926EDB02E20DB47 /* Pods-HCPChat_Example.debug.xcconfig */;
@@ -906,9 +943,9 @@
 			};
 			name = Debug;
 		};
-		79A4DABBB9DCB97C7E5A7BF673ADAC9C /* Release */ = {
+		81C803E3D0196F96CC03032DFB596E36 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 892FFE51124F4AFF9B27F811B64B6ED6 /* HCPChat.release.xcconfig */;
+			baseConfigurationReference = E546FA47F634F623F396558D9C09E690 /* HCPChat.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -934,9 +971,24 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		826A4EAFB6AE7AC990D355888429E882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 577A86AB9EB8CE4DD6827345D0A5FF30 /* SendBirdUIKit.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -1006,22 +1058,6 @@
 			};
 			name = Debug;
 		};
-		959C9E411E085EAA218EBE30143BB64E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 892FFE51124F4AFF9B27F811B64B6ED6 /* HCPChat.release.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HCPChat";
-				IBSC_MODULE = HCPChat;
-				INFOPLIST_FILE = "Target Support Files/HCPChat/ResourceBundle-HCPChat-HCPChat-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				PRODUCT_NAME = HCPChat;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1077,44 +1113,48 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		AC85205B36E8158E8C7D045A54F24DA3 /* Release */ = {
+		A07323C21D483220272F070BD58CF60C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 577A86AB9EB8CE4DD6827345D0A5FF30 /* SendBirdUIKit.release.xcconfig */;
+			baseConfigurationReference = E465BEA3A51AD855FE5A35F3DB9C87C0 /* HCPChat.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HCPChat/HCPChat-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HCPChat/HCPChat-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/HCPChat/HCPChat.modulemap";
+				PRODUCT_MODULE_NAME = HCPChat;
+				PRODUCT_NAME = HCPChat;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		AF5AEB25AE5B360343D302554285E076 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E7F727011E8DA9BD81C6C425EAC267D /* SendBirdSDK.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		C2EB48ADE774242006DB729D809AB2F9 /* Debug */ = {
+		A33C6F33DFEF2E35E44FC525855ED5BF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C0F8CA1B321FB8EE082E15869DDF06D4 /* SendBirdUIKit.debug.xcconfig */;
 			buildSettings = {
@@ -1164,40 +1204,7 @@
 			};
 			name = Release;
 		};
-		DFB3BEF279E9C32C57E6318711CDD094 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E740A8CFDCB277C6DC4E04DF4F737064 /* HCPChat.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HCPChat/HCPChat-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HCPChat/HCPChat-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/HCPChat/HCPChat.modulemap";
-				PRODUCT_MODULE_NAME = HCPChat;
-				PRODUCT_NAME = HCPChat;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E2DD44464670B31241BBC12D0066A254 /* Debug */ = {
+		E04DA6547C34BDBB79F4BED621A970D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4F4A7EBBE264F07BABE9EED2810AFFAD /* SendBirdSDK.debug.xcconfig */;
 			buildSettings = {
@@ -1249,33 +1256,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0B6BC31DAAE2AEF423FDA68BDC8B41DC /* Build configuration list for PBXNativeTarget "HCPChat-HCPChat" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				051FD985B91795CCB42D780B02EDA952 /* Debug */,
-				959C9E411E085EAA218EBE30143BB64E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0BA552128167900DC8AED4614222215C /* Build configuration list for PBXAggregateTarget "SendBirdSDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E2DD44464670B31241BBC12D0066A254 /* Debug */,
-				AF5AEB25AE5B360343D302554285E076 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		20864A858B783C1A4B6FABF8779E5749 /* Build configuration list for PBXNativeTarget "HCPChat" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DFB3BEF279E9C32C57E6318711CDD094 /* Debug */,
-				79A4DABBB9DCB97C7E5A7BF673ADAC9C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2E5863CA7F74B36DABF5AA1C19BDA2A0 /* Build configuration list for PBXNativeTarget "Pods-HCPChat_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1303,11 +1283,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7C2DD2302C7792C34D913BDBB8DCC449 /* Build configuration list for PBXAggregateTarget "SendBirdUIKit" */ = {
+		861D852B2599DA3B3DF8B24686D33921 /* Build configuration list for PBXNativeTarget "HCPChat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C2EB48ADE774242006DB729D809AB2F9 /* Debug */,
-				AC85205B36E8158E8C7D045A54F24DA3 /* Release */,
+				81C803E3D0196F96CC03032DFB596E36 /* Debug */,
+				A07323C21D483220272F070BD58CF60C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8C2601AB69F92E56F8B5A5249985E74 /* Build configuration list for PBXAggregateTarget "SendBirdSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E04DA6547C34BDBB79F4BED621A970D0 /* Debug */,
+				5DA573A4F7C186B2AFA7C480E53A3CDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC8D4B0AE78D0289CBC4F19D2E019068 /* Build configuration list for PBXNativeTarget "HCPChat-HCPChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B39CA5BCB6C4ECE2826B763AD62D16 /* Debug */,
+				14421AC219BBE6A3A6C646BAA66AE74E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E46737AF656A6D932ACAF3F322269D19 /* Build configuration list for PBXAggregateTarget "SendBirdUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A33C6F33DFEF2E35E44FC525855ED5BF /* Debug */,
+				826A4EAFB6AE7AC990D355888429E882 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
