@@ -1,16 +1,28 @@
 PODS:
-  - HCPChat (0.1.0)
+  - HCPChat (0.1.0):
+    - SendBirdUIKit
+  - SendBirdSDK (3.1.1)
+  - SendBirdUIKit (2.2.1):
+    - SendBirdSDK (~> 3.1.1)
 
 DEPENDENCIES:
   - HCPChat (from `../`)
+  - SendBirdUIKit
+
+SPEC REPOS:
+  trunk:
+    - SendBirdSDK
+    - SendBirdUIKit
 
 EXTERNAL SOURCES:
   HCPChat:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HCPChat: b788e91d832ff6f330261f9a9fe92834fdc91a1e
+  HCPChat: ea84f15a525b204d361ebc63967569b6f6896d7c
+  SendBirdSDK: f698cf686d732889d79854756aba6bbc20062a00
+  SendBirdUIKit: 19f911839f10908e58db91900d33b6758ad47744
 
-PODFILE CHECKSUM: 73c6848765f9f6efff0d2a2140b3efc67ed084f7
+PODFILE CHECKSUM: 5d6558ce5b3f6bdd4482bbd70dc6b7fe94c520c7
 
 COCOAPODS: 1.11.2

@@ -6,9 +6,10 @@
 //
 
 import UIKit
+import SendBirdSDK
 
 public enum CoordinatorFlow {
-  case main, channelDetails
+  case main, channelDetails(members: [SBDUser])
 }
 
 protocol CoordinatorDelegate: AnyObject {

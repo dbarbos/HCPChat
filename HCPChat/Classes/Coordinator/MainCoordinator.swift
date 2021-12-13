@@ -40,8 +40,8 @@ class MainCoordinator: MainCoordinatorProtocol {
 
 extension MainCoordinator: CoordinatorDelegate {
   func coordinatorDidFinish(childCoordinator: Coordinator) {
-    childCoordinators = childCoordinators.filter {
-      $0.flow != childCoordinator.flow
-    }
+//    childCoordinators = childCoordinators.filter {
+//      // $0.flow != childCoordinator.flow
+//    }
   }
 }

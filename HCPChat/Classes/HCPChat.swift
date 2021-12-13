@@ -17,9 +17,15 @@ public struct HCPChat {
       return Bundle(path: path)
   }()
   
-  static public func start(flow: CoordinatorFlow = .channelDetails, from navigationController: UINavigationController) {
+  static public func start(flow: CoordinatorFlow, from navigationController: UINavigationController) {
     
-    let mainCoordinator = MainCoordinator(navigationController)
-    mainCoordinator.start()
+    switch flow {
+    case .main:
+      let mainCoordinator = MainCoordinator(navigationController)
+      mainCoordinator.start()
+    case .channelDetails(let members):
+      let channelCoordinator = ChannelDetailsCoordinator(navigationController)
+      channelCoordinator.start()
+    }
   }
 }

@@ -37,6 +37,8 @@ Pod::Spec.new do |s|
       'HCPChat/Classes/**/*.json'
     ]
   }
+
+  s.dependency 'SendBirdUIKit'
   
   # s.resource_bundles = {
   #   'HCPChat' => ['HCPChat/Assets/*.png']

@@ -9,28 +9,19 @@ import UIKit
 
 class ChannelDetailsUserCell: UITableViewCell {
   
-   @IBOutlet weak var avatarImageView: UIImageView!
+   @IBOutlet weak var avatarImageView: UIView!
    @IBOutlet weak var nameLabel: UILabel!
    @IBOutlet weak var rolesStackView: UIStackView!
    @IBOutlet weak var actionButton: UIButton!
   
   func configure(user: ChannelDetailsUser) {
-    
+    avatarImageView.addSubview(CircularAvatarView.from(user.avatarUrl ?? "", userName: user.name ?? ""))
     nameLabel.text = user.name
     user.roles.forEach { role in
       if let value = role.value {
-        rolesStackView.addArrangedSubview(roleView(value))
+        rolesStackView.addArrangedSubview(ChatCustomTagView.withTag(value))
       }
     }
-  }
-  
-  private func roleView(_ role: String) -> UILabel {
-    let label = UILabel()
-    label.text = role
-    label.backgroundColor = .gray
-    label.layer.cornerRadius = 6
-    label.layer.masksToBounds = true
-    return label
   }
   
   @IBAction func didTapActionButton(_ sender: Any) {

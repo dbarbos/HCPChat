@@ -8,6 +8,7 @@
 
 import UIKit
 import HCPChat
+import SendBirdSDK
 
 class ViewController: UIViewController {
 
@@ -23,7 +24,9 @@ class ViewController: UIViewController {
   
   @IBAction func buttonTapped(_ sender: Any) {
     guard let navigationController = self.navigationController else { return }
-    HCPChat.start(flow: .channelDetails, from: navigationController)
+    
+    let diler = SBDUser(dictionary: ["nickname": "Diler Barbosa"])
+    HCPChat.start(flow: .channelDetails(members: [diler]), from: navigationController)
   }
 
 }

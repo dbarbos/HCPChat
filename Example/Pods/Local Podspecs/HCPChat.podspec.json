@@ -26,5 +26,10 @@
       "HCPChat/Classes/**/*.xib",
       "HCPChat/Classes/**/*.json"
     ]
+  },
+  "dependencies": {
+    "SendBirdUIKit": [
+
+    ]
   }
 }

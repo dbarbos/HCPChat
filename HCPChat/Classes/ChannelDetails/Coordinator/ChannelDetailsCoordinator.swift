@@ -17,7 +17,7 @@ class ChannelDetailsCoordinator: ChannelDetailsCoordinatorProtocol {
   weak var delegate: CoordinatorDelegate?
   var navigationController: UINavigationController
   var childCoordinators: [Coordinator] = []
-  var flow: CoordinatorFlow { .channelDetails }
+  var flow: CoordinatorFlow { .channelDetails(members: []) }
   
   required init(_ navigationController: UINavigationController) {
     self.navigationController = navigationController
