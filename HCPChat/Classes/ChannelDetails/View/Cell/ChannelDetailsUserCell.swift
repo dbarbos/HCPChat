@@ -27,5 +27,4 @@ class ChannelDetailsUserCell: UITableViewCell {
   @IBAction func didTapActionButton(_ sender: Any) {
     print("Action!")
   }
-  
 }

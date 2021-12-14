@@ -12,7 +12,7 @@ class ChannelDetailsViewModel {
   
   var members: [ChannelDetailsUser]
   
-  init(members: [SBDUser]) {
+  init(members: [SBDMember]) {
     self.members = members.map { ChannelDetailsUser(avatarUrl: $0.profileUrl, name: $0.nickname, roles: [ChannelDetailsUserRole(value: "Admin")]) }
   }
   

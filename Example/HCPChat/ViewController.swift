@@ -25,7 +25,8 @@ class ViewController: UIViewController {
   @IBAction func buttonTapped(_ sender: Any) {
     guard let navigationController = self.navigationController else { return }
     
-    let diler = SBDUser(dictionary: ["nickname": "Diler Barbosa"])
+    let diler = SBDMember(dictionary: ["nickname": "Diler Barbosa","profileUrl": "url"])
+    
     HCPChat.start(flow: .channelDetails(members: [diler]), from: navigationController)
   }
 
