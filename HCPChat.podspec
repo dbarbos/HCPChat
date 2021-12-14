@@ -38,6 +38,7 @@ Pod::Spec.new do |s|
   }
 
   s.dependency 'SendBirdUIKit'
+  s.dependency 'SDWebImage'
   
   # s.resource_bundles = {
   #   'HCPChat' => ['HCPChat/Assets/*.png']

@@ -7,6 +7,7 @@ target 'HCPChat_Example' do
   pod 'HCPChat', :path => '../'
   
   pod 'SendBirdUIKit'
+  pod 'SDWebImage'
 
   target 'HCPChat_Tests' do
     inherit! :search_paths

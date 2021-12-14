@@ -10,7 +10,7 @@ import UIKit
 import SendBirdSDK
 
 protocol MainCoordinatorProtocol: Coordinator {
-  func showChannelDetails(members: [SBDMember])
+  func showChannelDetails(members: [ChannelDetailsUser])
 }
 
 class MainCoordinator: MainCoordinatorProtocol {
@@ -32,7 +32,7 @@ class MainCoordinator: MainCoordinatorProtocol {
     }
   }
   
-  func showChannelDetails(members: [SBDMember]) {
+  func showChannelDetails(members: [ChannelDetailsUser]) {
     
     let channelDetailsViewController = ChannelDetailsViewController(with: ChannelDetailsViewModel(members: members))
     channelDetailsViewController.coordinator = self

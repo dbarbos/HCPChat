@@ -1,16 +1,22 @@
 PODS:
   - HCPChat (0.1.3):
+    - SDWebImage
     - SendBirdUIKit
+  - SDWebImage (5.12.1):
+    - SDWebImage/Core (= 5.12.1)
+  - SDWebImage/Core (5.12.1)
   - SendBirdSDK (3.1.1)
   - SendBirdUIKit (2.2.1):
     - SendBirdSDK (~> 3.1.1)
 
 DEPENDENCIES:
   - HCPChat (from `../`)
+  - SDWebImage
   - SendBirdUIKit
 
 SPEC REPOS:
   trunk:
+    - SDWebImage
     - SendBirdSDK
     - SendBirdUIKit
 
@@ -19,10 +25,11 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HCPChat: 5d06c1ca08bab22fde3db200246d2a869ec29254
+  HCPChat: f91b8c447947b5e17b8b18347425c71420dd3f94
+  SDWebImage: 4dc3e42d9ec0c1028b960a33ac6b637bb432207b
   SendBirdSDK: f698cf686d732889d79854756aba6bbc20062a00
   SendBirdUIKit: 19f911839f10908e58db91900d33b6758ad47744
 
-PODFILE CHECKSUM: 5d6558ce5b3f6bdd4482bbd70dc6b7fe94c520c7
+PODFILE CHECKSUM: fb9761fa9bf98a2b544f660027180a1827e22661
 
 COCOAPODS: 1.11.2

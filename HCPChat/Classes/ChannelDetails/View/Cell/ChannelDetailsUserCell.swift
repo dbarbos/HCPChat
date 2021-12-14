@@ -15,11 +15,11 @@ class ChannelDetailsUserCell: UITableViewCell {
    @IBOutlet weak var actionButton: UIButton!
   
   func configure(user: ChannelDetailsUser) {
-    avatarImageView.addSubview(CircularAvatarView.from(user.avatarUrl ?? "", userName: user.name ?? ""))
-    nameLabel.text = user.name
-    user.roles.forEach { role in
-      if let value = role.value {
-        rolesStackView.addArrangedSubview(ChatCustomTagView.withTag(value))
+    avatarImageView.addSubview(CircularAvatarView.from(user.profileUrl ?? "", userName: user.nickname ?? ""))
+    nameLabel.text = user.nickname
+    if let roles = user.roles {
+      roles.forEach { role in
+        rolesStackView.addArrangedSubview(ChatCustomTagView.withTag(role))
       }
     }
   }

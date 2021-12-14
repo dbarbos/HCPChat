@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SDWebImage
 
 class CircularAvatarView: UIView {
   
@@ -31,23 +32,12 @@ class CircularAvatarView: UIView {
     }
   }
   
-  private var imageUrl: String = ""
+  private var imageUrl: String = "" {
+    didSet {
+      avatarImageView.sd_setImage(with: URL(string: imageUrl), placeholderImage: UIImage(named: "", in: HCPChat.bundle, compatibleWith: nil), options: [], context: nil)
+    }
+  }
   private var userName: String = ""
-  
-//  required init(state: State = .loading, imageUrl: String, userName: String) {
-//    self.state = state
-//    self.imageUrl = imageUrl
-//    self.userName = userName
-//
-//    super.init(frame: CGRect.zero)
-//
-//    self.clipsToBounds = true
-//    self.layer.cornerRadius = self.frame.size.height / 2
-//  }
-//
-//  required init?(coder: NSCoder) {
-//    fatalError("init(coder:) has not been implemented")
-//  }
   
   class func from(_ url: String, state: State = .loading, userName: String) -> CircularAvatarView {
     let customView = UINib(nibName: "CircularAvatarView", bundle: HCPChat.bundle).instantiate(withOwner: self, options: nil).first as! CircularAvatarView
@@ -59,10 +49,4 @@ class CircularAvatarView: UIView {
     
     return customView
   }
-  
-//  override func layoutSubviews() {
-//    super.layoutSubviews()
-//    self.layer.cornerRadius = self.frame.size.height / 2
-//    self.clipsToBounds = true
-//  }
 }
