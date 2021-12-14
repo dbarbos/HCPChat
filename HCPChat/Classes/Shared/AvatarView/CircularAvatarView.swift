@@ -13,39 +13,26 @@ class CircularAvatarView: UIView {
   @IBOutlet weak var avatarImageView: UIImageView!
   @IBOutlet weak var initialsLabel: UILabel!
   
-  enum State {
-    case loading, image, text, error
-  }
-  
-  private var state: State = .loading {
+  private var imageUrl: String = "" {
     didSet {
-      switch state {
-      case .loading:
-        backgroundColor = .blue
-      case .image:
-        backgroundColor = .green
-      case .text:
-        backgroundColor = .purple
-      case .error:
-        backgroundColor = .red
+      avatarImageView.sd_setImage(with: URL(string: imageUrl), placeholderImage: UIImage(named: "profile-placeholder", in: HCPChat.bundle, compatibleWith: nil), options: SDWebImageOptions.retryFailed) { [weak self] _, error, _, _ in
+        if let error = error {
+          self?.avatarImageView.isHidden = true
+        }
       }
     }
   }
   
-  private var imageUrl: String = "" {
-    didSet {
-      avatarImageView.sd_setImage(with: URL(string: imageUrl), placeholderImage: UIImage(named: "", in: HCPChat.bundle, compatibleWith: nil), options: [], context: nil)
-    }
-  }
   private var userName: String = ""
   
-  class func from(_ url: String, state: State = .loading, userName: String) -> CircularAvatarView {
+  class func from(_ url: String, userName: String) -> CircularAvatarView {
     let customView = UINib(nibName: "CircularAvatarView", bundle: HCPChat.bundle).instantiate(withOwner: self, options: nil).first as! CircularAvatarView
     customView.initialsLabel.text = userName.initials()
+    customView.initialsLabel.backgroundColor = .lightGray
     customView.clipsToBounds = true
     customView.layer.cornerRadius = customView.frame.size.height / 2
     
-    customView.state = state
+    customView.imageUrl = url
     
     return customView
   }
