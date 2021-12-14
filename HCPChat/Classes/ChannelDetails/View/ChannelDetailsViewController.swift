@@ -35,6 +35,8 @@ class ChannelDetailsViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
+    navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
+    
     tableView.delegate = self
     tableView.dataSource = self
     
