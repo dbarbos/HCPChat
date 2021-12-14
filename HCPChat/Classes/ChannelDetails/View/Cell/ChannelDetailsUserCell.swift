@@ -21,6 +21,9 @@ class ChannelDetailsUserCell: UITableViewCell {
       roles.forEach { role in
         rolesStackView.addArrangedSubview(ChatCustomTagView.withTag(role))
       }
+      //if roles.contains("Customer") { // Will hide button for now, feature to be implemented on next release
+        actionButton.isHidden = true
+      //}
     }
   }
   

@@ -25,9 +25,39 @@ class ViewController: UIViewController {
   @IBAction func buttonTapped(_ sender: Any) {
     guard let navigationController = self.navigationController else { return }
     
-    let diler = ChannelDetailsUser(userId: "usr_avnslakdvlkdsnfvnklds", nickname: "Diler Barbosa", profileUrl: "https://i.redd.it/v0caqchbtn741.jpg", roles: ["Admin", "Field Tech"], customerId: "cus_kjksfdvsjkd8239hf")
+    let diler = ChannelDetailsUser(
+      userId: "usr_avnslakdvlkdsnfvnklds",
+      nickname: "Diler Barbosa",
+      profileUrl: "https://i.redd.it/v0caqchbtn741.jpg",
+      roles: ["Admin", "Field Tech"],
+      customerId: "cus_kjksfdvsjkd8239hf"
+    )
     
-    HCPChat.start(flow: .channelDetails(members: [diler]), from: navigationController)
+    let uke = ChannelDetailsUser(
+      userId: "usr_avnslakdvlkdsnfvnklds",
+      nickname: "Uke Jain",
+      profileUrl: "",
+      roles: ["Field Tech"],
+      customerId: "cus_kjksfdvsjkd8239hf"
+    )
+    
+    let reza = ChannelDetailsUser(
+      userId: "usr_avnslakdvlkdsnfvnklds",
+      nickname: "Reza Olfat",
+      profileUrl: "",
+      roles: ["POC"],
+      customerId: "cus_kjksfdvsjkd8239hf"
+    )
+    
+    let gabriel = ChannelDetailsUser(
+      userId: "usr_avnslakdvlkdsnfvnklds",
+      nickname: "Gabriel Oliveira",
+      profileUrl: "",
+      roles: ["Customer"],
+      customerId: "cus_kjksfdvsjkd8239hf"
+    )
+    
+    HCPChat.start(flow: .channelDetails(members: [gabriel, diler, uke, reza]), from: navigationController)
   }
 
 }
