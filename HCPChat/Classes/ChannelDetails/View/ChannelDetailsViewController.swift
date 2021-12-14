@@ -35,8 +35,6 @@ class ChannelDetailsViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
-    
     tableView.delegate = self
     tableView.dataSource = self
     
@@ -46,14 +44,20 @@ class ChannelDetailsViewController: UIViewController {
     )
   }
   
+  override func viewWillAppear(_ animated: Bool) {
+    super.viewWillAppear(animated)
+    setLeftBarButtonItem()
+  }
+  
   private func setLeftBarButtonItem() {
-    navigationItem.leftBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: #selector(didDismissChannelDetails))
+    self.navigationItem.hidesBackButton = true
+    let backButtonImage = UIImage(named: "icon_back_arrow", in: HCPChat.bundle, with: nil)?.withTintColor(.primaryBlack, renderingMode: .alwaysOriginal)
+    navigationItem.leftBarButtonItem = UIBarButtonItem(image: backButtonImage, style: .plain, target: self, action: #selector(didDismissChannelDetails))
   }
   
-  @objc private func didDismissChannelDetails() {
-    navigationController?.popViewController(animated: true)
+  @objc func didDismissChannelDetails() {
+    self.navigationController?.popViewController(animated: true)
   }
-  
 }
 
 extension ChannelDetailsViewController: UITableViewDataSource, UITableViewDelegate {

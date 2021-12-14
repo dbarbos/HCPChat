@@ -31,8 +31,7 @@ Pod::Spec.new do |s|
 
   s.resource_bundles = {
     'HCPChat' => [
-      'HCPChat/Assets/*.xcassets', 
-      'HCPChat/Assets/**/*.json', 
+      'HCPChat/Assets/*',  
       'HCPChat/Classes/**/*.xib',
       'HCPChat/Classes/**/*.json'
     ]

@@ -1,6 +1,6 @@
 {
   "name": "HCPChat",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "summary": "A short description of HCPChat.",
   "homepage": "https://github.com/dbarbos/HCPChat",
   "license": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/dbarbos/HCPChat.git",
-    "tag": "0.1.1"
+    "tag": "0.1.3"
   },
   "platforms": {
     "ios": "13.0"
@@ -21,8 +21,7 @@
   "source_files": "HCPChat/Classes/**/*",
   "resource_bundles": {
     "HCPChat": [
-      "HCPChat/Assets/*.xcassets",
-      "HCPChat/Assets/**/*.json",
+      "HCPChat/Assets/*",
       "HCPChat/Classes/**/*.xib",
       "HCPChat/Classes/**/*.json"
     ]

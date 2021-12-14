@@ -38,7 +38,6 @@ class MainCoordinator: MainCoordinatorProtocol {
     channelDetailsViewController.coordinator = self
     
     navigationController.pushViewController(channelDetailsViewController, animated: true)
-    
   }
   
 }
