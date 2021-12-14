@@ -13,7 +13,12 @@ class ChannelDetailsViewModel {
   var members: [ChannelDetailsUser]
   
   init(members: [SBDMember]) {
-    self.members = members.map { ChannelDetailsUser(avatarUrl: $0.profileUrl, name: $0.nickname, roles: [ChannelDetailsUserRole(value: "Admin")]) }
+    let superMember = members.first
+    print(superMember)
+    print(superMember?.metaData)
+    print(superMember?.role)
+    print(superMember?.profileUrl)
+    self.members = members.map { ChannelDetailsUser(avatarUrl: $0.profileUrl, name: $0.nickname, roles: [ChannelDetailsUserRole(value: "Admin"), ChannelDetailsUserRole(value: "Field Tech")]) }
   }
   
 }
