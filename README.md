@@ -22,8 +22,8 @@ pod 'HCPChat'
 
 ## Author
 
-dbarbos, tqi_dbarbosa@uolinc.com
+dbarbos, dilermando.barbosa@housecallpro.com
 
 ## License
 
-HCPChat is available under the MIT license. See the LICENSE file for more info.
+HCPChat is available under the MIT license. See the LICENSE file for more info. (License should be HCP internal use only)

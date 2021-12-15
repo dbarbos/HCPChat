@@ -29,6 +29,8 @@ class MainCoordinator: MainCoordinatorProtocol {
       print("Go to main flow")
     case .channelDetails(let members):
       showChannelDetails(members: members)
+    default:
+      print("Flow implementation missing")
     }
   }
   

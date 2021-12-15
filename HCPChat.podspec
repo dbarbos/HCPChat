@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'HCPChat'
   s.version          = '0.1.4'
-  s.summary          = 'A short description of HCPChat.'
+  s.summary          = 'HCPChat is the iOS chat module used on HouseCallPro App.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?

@@ -58,6 +58,16 @@ class ViewController: UIViewController {
     )
     
     HCPChat.start(flow: .channelDetails(members: [gabriel, diler, uke, reza]), from: navigationController)
+    
+    HCPChat.callback = { event in
+      switch event {
+      case .didDismissChannelDetails:
+        print("Dismiss details")
+      case .didSelectActionForUserInChannel(let userId):
+        print("Did select action for user: \(userId)")
+      }
+    }
+    
   }
 
 }

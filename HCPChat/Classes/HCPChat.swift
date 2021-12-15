@@ -23,4 +23,12 @@ public struct HCPChat {
     mainCoordinator.start(flow: flow)
     
   }
+  
+  public static var callback: ((HCPChat.Event) -> Void)?
+  
+  public enum Event {
+    case didDismissChannelDetails
+    case didSelectActionForUserInChannel(userId: String)
+  }
+  
 }

@@ -57,6 +57,7 @@ class ChannelDetailsViewController: UIViewController {
   
   @objc func didDismissChannelDetails() {
     self.navigationController?.popViewController(animated: true)
+    HCPChat.callback?(HCPChat.Event.didDismissChannelDetails)
   }
 }
 

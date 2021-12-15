@@ -16,6 +16,7 @@
 			dependencies = (
 			);
 			name = SendBirdSDK;
+			productName = SendBirdSDK;
 		};
 		89D97488C4F8726AB4F3C61EDD95CC56 /* SendBirdUIKit */ = {
 			isa = PBXAggregateTarget;
@@ -27,6 +28,7 @@
 				EF75895F620A61B39E89211DF604B447 /* PBXTargetDependency */,
 			);
 			name = SendBirdUIKit;
+			productName = SendBirdUIKit;
 		};
 /* End PBXAggregateTarget section */
 
@@ -278,7 +280,7 @@
 /* Begin PBXFileReference section */
 		0156F75ADD93A2927DD95B5CFD489EA5 /* SendBirdSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "SendBirdSDK-xcframeworks.sh"; sourceTree = "<group>"; };
 		030F1533C01A355762FE0C0B46F06203 /* HCPChat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HCPChat.swift; path = HCPChat/Classes/HCPChat.swift; sourceTree = "<group>"; };
-		03566D60EBF7FEAFA27D7557B2C5BB0F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		03566D60EBF7FEAFA27D7557B2C5BB0F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		06BAB12CE938FA34CC844CFF80DC221F /* UIButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "SDWebImage/Core/UIButton+WebCache.h"; sourceTree = "<group>"; };
 		084129D6CC7F3D1B4E8EF18B8C52B0D7 /* SDWebImageOptionsProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOptionsProcessor.h; path = SDWebImage/Core/SDWebImageOptionsProcessor.h; sourceTree = "<group>"; };
 		08AAF7B56BA6F55F2C7C60CE64BF54A1 /* SDWebImageTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageTransition.m; path = SDWebImage/Core/SDWebImageTransition.m; sourceTree = "<group>"; };
@@ -287,7 +289,7 @@
 		0DDEB695FA7E7EE3189D64B3671EA45A /* SDImageCachesManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCachesManager.h; path = SDWebImage/Core/SDImageCachesManager.h; sourceTree = "<group>"; };
 		0E83E377AF4C089CA044DA71C6C6F734 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
 		10249F12FB6C2989F5B62DC9FDB587EB /* SDWebImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SDWebImage.modulemap; sourceTree = "<group>"; };
-		10A9E1B98C02BED781A98EC4D3344E79 /* SendBirdUIKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = SendBirdUIKit.xcframework; path = Framework/SendBirdUIKit.xcframework; sourceTree = "<group>"; };
+		10A9E1B98C02BED781A98EC4D3344E79 /* SendBirdUIKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = SendBirdUIKit.xcframework; path = Framework/SendBirdUIKit.xcframework; sourceTree = "<group>"; };
 		12F958D23FD7EC73953ABF48EFD9BF68 /* UIImage+Transform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Transform.m"; path = "SDWebImage/Core/UIImage+Transform.m"; sourceTree = "<group>"; };
 		16E4B84CB59DDA4D76C9669A7596E73F /* SendBirdSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SendBirdSDK.release.xcconfig; sourceTree = "<group>"; };
 		1867FE8528FD40287E6A90BDC8269736 /* UIImage+MemoryCacheCost.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MemoryCacheCost.m"; path = "SDWebImage/Core/UIImage+MemoryCacheCost.m"; sourceTree = "<group>"; };
@@ -317,8 +319,8 @@
 		3812749D4739FCBD1D462554646BA912 /* SDDiskCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDDiskCache.m; path = SDWebImage/Core/SDDiskCache.m; sourceTree = "<group>"; };
 		387677F36281F52A4BA1D3C762CAB1F2 /* SDWebImageOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOperation.h; path = SDWebImage/Core/SDWebImageOperation.h; sourceTree = "<group>"; };
 		39592E546A2DCCF739A04C0848D5E5B4 /* SDWebImageCacheKeyFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCacheKeyFilter.m; path = SDWebImage/Core/SDWebImageCacheKeyFilter.m; sourceTree = "<group>"; };
-		3990A9FF91B35140A811C24876FD05AB /* SendBirdSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = SendBirdSDK.xcframework; path = Sources/SendBirdSDK.xcframework; sourceTree = "<group>"; };
-		3C18B2577828F6A23D3FF987CBC8155B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3990A9FF91B35140A811C24876FD05AB /* SendBirdSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = SendBirdSDK.xcframework; path = Sources/SendBirdSDK.xcframework; sourceTree = "<group>"; };
+		3C18B2577828F6A23D3FF987CBC8155B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3D1AAC5BD00CB9D48867922A3A2942F9 /* SDGraphicsImageRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDGraphicsImageRenderer.m; path = SDWebImage/Core/SDGraphicsImageRenderer.m; sourceTree = "<group>"; };
 		3EC06E893BBDEEF8523052E81C268EB0 /* SDImageAPNGCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageAPNGCoder.h; path = SDWebImage/Core/SDImageAPNGCoder.h; sourceTree = "<group>"; };
 		401AAC3129719299BC888FE76465C51E /* UIButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "SDWebImage/Core/UIButton+WebCache.m"; sourceTree = "<group>"; };
@@ -404,7 +406,7 @@
 		9AFB998712BAA4ED815DB3F6D253D056 /* SDImageCachesManagerOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCachesManagerOperation.h; path = SDWebImage/Private/SDImageCachesManagerOperation.h; sourceTree = "<group>"; };
 		9B23DA6DA014B9A18D669BEED8823EFB /* Coordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		9BD58484D990D0633B3FD69F7E3F1CE4 /* SDAnimatedImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImageView.h; path = SDWebImage/Core/SDAnimatedImageView.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DCBE675467DA0C7EE85D94D1B5118CB /* SDImageLoadersManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageLoadersManager.h; path = SDWebImage/Core/SDImageLoadersManager.h; sourceTree = "<group>"; };
 		9F1C14CB6080D5FAAFF06DB2F9A3C4A3 /* SDImageCodersManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCodersManager.m; path = SDWebImage/Core/SDImageCodersManager.m; sourceTree = "<group>"; };
 		9F62B39858E17B23556960C95EDAD308 /* SDAsyncBlockOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDAsyncBlockOperation.m; path = SDWebImage/Private/SDAsyncBlockOperation.m; sourceTree = "<group>"; };
@@ -466,7 +468,7 @@
 		E6DBB8A0BB650C303122387D03931081 /* SDWebImageDownloaderDecryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderDecryptor.m; path = SDWebImage/Core/SDWebImageDownloaderDecryptor.m; sourceTree = "<group>"; };
 		E7D1D3D18928C1758EC2D6ED191D845E /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HighlightedWebCache.h"; path = "SDWebImage/Core/UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
 		E80FB12B6062D547FBBDD252B89334FD /* SDWebImageOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageOperation.m; path = SDWebImage/Core/SDWebImageOperation.m; sourceTree = "<group>"; };
-		EA56C15C0868D68EF12FB13858AD0C46 /* HCPChat.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HCPChat.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EA56C15C0868D68EF12FB13858AD0C46 /* HCPChat.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HCPChat.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		EC1DE193573E75408EF0F450905A14B9 /* SDDeviceHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDDeviceHelper.h; path = SDWebImage/Private/SDDeviceHelper.h; sourceTree = "<group>"; };
 		ED0D2E984CC659F93022485531532939 /* SDDisplayLink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDDisplayLink.h; path = SDWebImage/Private/SDDisplayLink.h; sourceTree = "<group>"; };
 		EE8402B7C6C046312F6E4E4DEC8AFC49 /* SDImageCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCoder.h; path = SDWebImage/Core/SDImageCoder.h; sourceTree = "<group>"; };
@@ -585,7 +587,6 @@
 				BCF2D77116ABAB981F4790D68C84102E /* ChannelDetailsViewController.xib */,
 				AF7C32787B3B204C4DBFA57BE029A4C8 /* Cell */,
 			);
-			name = View;
 			path = View;
 			sourceTree = "<group>";
 		};
@@ -630,7 +631,6 @@
 				AB0E764A7145EF84F81B89D686B60798 /* Frameworks */,
 				AC7F296D46B8A27DE82834AB5855B6AB /* Support Files */,
 			);
-			name = SendBirdSDK;
 			path = SendBirdSDK;
 			sourceTree = "<group>";
 		};
@@ -687,7 +687,6 @@
 			children = (
 				22E978990AB8DF071C53AD66801B2D87 /* ChannelDetailsUser.swift */,
 			);
-			name = Model;
 			path = Model;
 			sourceTree = "<group>";
 		};
@@ -743,7 +742,6 @@
 			children = (
 				C047604FEF97430C3E8DB9CC434FD8C1 /* ChannelDetailsViewModel.swift */,
 			);
-			name = ViewModel;
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
@@ -772,7 +770,6 @@
 				F077817A6B68BA2812A96476C4943D13 /* ChannelDetailsUserCell.swift */,
 				8267FC0CC33F51881D3A7FE874C97CC4 /* ChannelDetailsUserCell.xib */,
 			);
-			name = Cell;
 			path = Cell;
 			sourceTree = "<group>";
 		};
@@ -931,7 +928,6 @@
 				85FADD7A9C752918EEDD669185444BBE /* Frameworks */,
 				8BAF6D52EE64EC90A4DF9A75B1DA17FE /* Support Files */,
 			);
-			name = SendBirdUIKit;
 			path = SendBirdUIKit;
 			sourceTree = "<group>";
 		};
@@ -949,7 +945,6 @@
 				F00B09D00C8032EEA37C766BD3DE9EAD /* ChatCustomTagView.swift */,
 				37E2FBC73FC97BAEAE7CBFCF218E453F /* ChatCustomTagView.xib */,
 			);
-			name = TagView;
 			path = TagView;
 			sourceTree = "<group>";
 		};
@@ -971,7 +966,6 @@
 				BA886C6F4CCD0D49F21D0F22E44538D6 /* Core */,
 				3AC63CBB64EDD0FBDB16AA2548280DAE /* Support Files */,
 			);
-			name = SDWebImage;
 			path = SDWebImage;
 			sourceTree = "<group>";
 		};
@@ -1015,7 +1009,6 @@
 				8F9E8AE3D3ACB537B7D8850E6DC966EF /* CircularAvatarView.swift */,
 				D98271D4237DC4DCEBEA56E3EE13B2B9 /* CircularAvatarView.xib */,
 			);
-			name = AvatarView;
 			path = AvatarView;
 			sourceTree = "<group>";
 		};
@@ -1829,8 +1822,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
