@@ -36,12 +36,12 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2RG-xl-Cqx">
-                                <rect key="frame" x="164.5" y="318" width="46" height="31"/>
+                                <rect key="frame" x="116" y="318" width="143" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="31" id="jde-AW-vHx"/>
                                 </constraints>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Channel Details Flow"/>
                                 <connections>
                                     <action selector="buttonTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="H5X-xa-MGK"/>
                                 </connections>
